@@ -1,0 +1,124 @@
+#hackaprompt,
+#cozybot,
+#mcjavacmds,
+#contact,
+#articles,
+#aboutme,
+#article,
+#project,
+#skills,
+#projects,
+#home,
+#underconstruction,
+#cozybotinvite,
+#error,
+#home,
+#articles,
+#kasa,
+#sophie-bluel,
+#qwenta,
+#nina-carducci,
+#loading {
+    max-width: 1400px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+} 
+
+.markdown-body {
+    background-color:rgb(238, 238, 238);
+    border-radius: 20px;
+    margin: 2rem 10rem 2rem 10rem;
+    text-align: justify;
+    padding: 0 10rem;
+    font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif !important;
+    max-width: 800px;
+    color: black;
+
+    .dark & {
+        background-color: black;
+        color: white;
+
+        pre {
+            background-color: rgba(175,184,193,0.2);
+        }
+
+        .language-txt, .language-json, .language-java {
+            color: white;
+        }
+
+        a {
+            color: rgb(255, 0, 0);
+        }
+    }
+}
+
+
+
+#mcjavacmds, #hackaprompt {
+    margin-bottom: 5rem;
+}
+
+#copiedMessage {
+    position: fixed;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.918);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    z-index: 1000;
+    animation: fade-in-out 3s;
+    text-align: center;
+
+    @keyframes fade-in-out {
+        0%, 100% { opacity: 0; }
+        10%, 90% { opacity: 1; }
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .markdown-body {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .markdown-body {
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .markdown-body {
+        max-width: 400px;
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .markdown-body {
+        padding: 0 1rem;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .markdown-body {
+        max-width: 250px;
+    }
+}
