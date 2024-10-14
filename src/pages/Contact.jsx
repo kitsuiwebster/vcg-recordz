@@ -15,7 +15,7 @@ function Contact() {
                 <ul className="contact-list">
                     <li className="contact-list-item">
                         <span className="contact-list-item-label">{t('email')}</span> 
-                        <a href="mailto:raphael.martin@bashroom.com" className="contact-list-item-link">contact@vcgrecordz.eu</a>
+                        <a href="mailto:business@vcgrecordz.eu" className="contact-list-item-link">business@vcgrecordz.eu</a>
                     </li>
                     <li className="contact-list-item">
                         <span className="contact-list-item-label">{t('tel')}</span> 
