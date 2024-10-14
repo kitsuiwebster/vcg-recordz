@@ -6,6 +6,7 @@ import { useTheme } from '../ThemeContext';
 import { useTranslation } from 'react-i18next';
 import ukFlag from '../assets/images/flags/uk.png'
 import frenchFlag from '../assets/images/flags/fr.png'
+import logo from '../assets/images/white-logo.png'; 
 
 
 function Layout({ children }) {
@@ -42,8 +43,8 @@ function Layout({ children }) {
         <>
             <div className={`layout ${theme}`}>
                 <header className="layout-header">
-                    <div className='layout-header-title-container'>
-                        <h1 className='layout-header-title'>VCG</h1>
+                    <div className='layout-header-logo-container'>
+                        <img src={logo} alt="Logo" className='layout-header-logo' />
                     </div>
                     <div className="layout-header-mobile" onClick={toggleNav}>
                         <img loading="lazy" alt="Menu Icon" src={menuIcon} className='layout-header-icon'></img>
