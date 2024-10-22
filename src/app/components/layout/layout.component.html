@@ -1,19 +1,20 @@
-<!-- src/app/components/layout/layout.component.html -->
-<header class="bg-gray-800 text-white p-4">
-  <div class="container mx-auto">
-    <h1>VCG Recordz</h1>
+<header class="bg-gradient-to-r from-gray-700 via-gray-900 to-black text-white p-4 shadow-md">
+  <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-xl font-bold">VCG Recordz</h1>
     <nav>
-      <a routerLink="/" class="px-3">Home</a>
-      <a routerLink="/about" class="px-3">About</a>
-      <a routerLink="/contact" class="px-3">Contact</a>
+      <a routerLink="/" class="px-3 hover:text-gray-300">Home</a>
+      <a routerLink="/about" class="px-3 hover:text-gray-300">About</a>
+      <a routerLink="/contact" class="px-3 hover:text-gray-300">Contact</a>
     </nav>
   </div>
 </header>
-<main class="container mx-auto my-4">
+
+<main class="container mx-auto my-8 p-6 bg-white rounded-lg shadow-lg">
   <router-outlet></router-outlet>
 </main>
-<footer class="bg-gray-800 text-white p-4">
-  <div class="container mx-auto">
-    <p>&copy; 2024 VCG Recordz</p>
+
+<footer class="bg-gradient-to-r from-black via-gray-900 to-gray-700 text-white p-4">
+  <div class="container mx-auto text-center">
+    <p class="text-sm">&copy; 2024 VCG Recordz</p>
   </div>
 </footer>
