@@ -8,6 +8,7 @@ import { NotYetComponent } from './components/pages/not-yet/not-yet.component';
 import { TeamComponent } from './components/pages/team/team.component';
 import { ServicesComponent } from './components/pages/services/services.component';
 import { ArtistsComponent } from './components/pages/artists/artists.component';
+import { GetintouchComponent } from './components/pages/getintouch/getintouch.component';
 
 export const routes: Routes = [
 //   { path: '', component: HomeComponent },
@@ -19,6 +20,7 @@ export const routes: Routes = [
   { path: 'team', component: TeamComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'artists', component: ArtistsComponent },
+  { path: 'getintouch', component: GetintouchComponent },
   { path: '**', redirectTo: 'not-found' } 
 ];
 
