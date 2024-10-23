@@ -7,11 +7,12 @@ import { NotFoundComponent } from './components/pages/not-found/not-found.compon
 import { NotYetComponent } from './components/pages/not-yet/not-yet.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+//   { path: '', component: HomeComponent },
+  { path: '', component: NotYetComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'not-found', component: NotFoundComponent },
-  { path: 'not-yet', component: NotYetComponent },
+  { path: 'not-yet', component: HomeComponent },
   { path: '**', redirectTo: 'not-found' } 
 ];
 
