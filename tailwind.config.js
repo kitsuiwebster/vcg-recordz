@@ -8,6 +8,9 @@ module.exports = {
       screens: {
         'sm900': '900px',
       },
+      fontSize: {
+        'xxs': '0.625rem',
+      },
     },
   },
   variants: {},
