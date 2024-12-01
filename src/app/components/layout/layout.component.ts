@@ -5,9 +5,13 @@ import { RouterModule } from '@angular/router';
   selector: 'app-layout',
   standalone: true,
   templateUrl: './layout.component.html',
-  styleUrl: './layout.component.scss',
+  styleUrls: ['./layout.component.scss'],
   imports: [RouterModule]
 })
 export class LayoutComponent {
+  isMenuOpen = false;
 
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }
