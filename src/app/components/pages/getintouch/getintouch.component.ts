@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-getintouch',
@@ -13,7 +15,7 @@ import { CommonModule } from '@angular/common';
 export class GetintouchComponent {
   contactForm: FormGroup;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private router: Router) {
     this.contactForm = this.fb.group({
       firstName: ['', [Validators.required]],
       lastName: ['', [Validators.required]],
@@ -30,5 +32,16 @@ export class GetintouchComponent {
       return;
     }
     console.log('Form submitted', this.contactForm.value);
+    Swal.fire({
+      icon: 'success',
+      title: 'Form Submitted!',
+      text: 'Thank you for contacting us. We will get back to you soon.',
+      showConfirmButton: true,
+      confirmButtonText: 'Go to Home',
+    }).then((result) => {
+      if (result.isConfirmed) {
+        this.router.navigate(['/']);
+      }
+    });
   }
 }
