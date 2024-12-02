@@ -1,0 +1,7 @@
+.artist-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.artist-image:hover {
+  transform: scale(1.05);
+}
