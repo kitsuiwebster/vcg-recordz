@@ -11,8 +11,8 @@ import { ArtistsComponent } from './components/pages/artists/artists.component';
 import { GetintouchComponent } from './components/pages/getintouch/getintouch.component';
 
 export const routes: Routes = [
-//   { path: '', component: HomeComponent },
-  { path: '', component: NotYetComponent },
+  { path: '', component: HomeComponent },
+  // { path: '', component: NotYetComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'not-found', component: NotFoundComponent },
