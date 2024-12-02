@@ -9,6 +9,7 @@ import { TeamComponent } from './components/pages/team/team.component';
 import { ServicesComponent } from './components/pages/services/services.component';
 import { ArtistsComponent } from './components/pages/artists/artists.component';
 import { GetintouchComponent } from './components/pages/getintouch/getintouch.component';
+import { RequestComponent } from './components/pages/request/request.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,6 +22,7 @@ export const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'artists', component: ArtistsComponent },
   { path: 'getintouch', component: GetintouchComponent },
+  { path: 'request', component: RequestComponent },
   { path: '**', redirectTo: 'not-found' } 
 ];
 
