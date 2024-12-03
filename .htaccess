@@ -1,6 +1,24 @@
+# Enable Rewrite Engine
 RewriteEngine On
 RewriteBase /
-RewriteRule ^index\.html$ - [L]
+
+# Detect browser language and redirect accordingly (only for the root)
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^$ /fr/ [R=302,L]
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule ^$ /en/ [R=302,L]
+
+# Default redirect to English if no language match
+RewriteRule ^$ /en/ [R=302,L]
+
+# Serve Angular app for English (subdirectory /en)
+RewriteCond %{REQUEST_URI} ^/en
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.html [L]
+RewriteRule ^en/(.*)$ /en/index.html [L]
+
+# Serve Angular app for French (subdirectory /fr)
+RewriteCond %{REQUEST_URI} ^/fr
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^fr/(.*)$ /fr/index.html [L]
