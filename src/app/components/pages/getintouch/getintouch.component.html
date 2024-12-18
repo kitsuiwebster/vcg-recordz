@@ -2,10 +2,11 @@
   <div class="mx-auto max-w-2xl text-center">
     <h2
       class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl"
+      i18n
     >
       Contact VCG Recordz
     </h2>
-    <p class="mt-2 text-lg leading-8 text-gray-300">
+    <p class="mt-2 text-lg leading-8 text-gray-300" i18n>
       We will respond as soon as possible.
     </p>
   </div>
@@ -16,7 +17,7 @@
   >
     <div *ngIf="isLoading" class="text-center flex mb-4 justify-center items-center flex-col">
       <div class="loader"></div>
-      <p class="text-gray-300">Submitting your request...</p>
+      <p class="text-gray-300" i18n>Submitting your request...</p>
     </div>
     <div
       class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2"
@@ -26,8 +27,10 @@
         <label
           for="first-name"
           class="block text-sm font-semibold leading-6 text-white"
-          >First name *</label
+          i18n
         >
+          First name *
+        </label>
         <input
           type="text"
           id="first-name"
@@ -40,6 +43,7 @@
             contactForm.get('firstName')?.invalid
           "
           class="text-red-500 text-sm"
+          i18n
         >
           First name is required.
         </div>
@@ -49,8 +53,10 @@
         <label
           for="last-name"
           class="block text-sm font-semibold leading-6 text-white"
-          >Last name *</label
+          i18n
         >
+          Last name *
+        </label>
         <input
           type="text"
           id="last-name"
@@ -63,6 +69,7 @@
             contactForm.get('lastName')?.invalid
           "
           class="text-red-500 text-sm"
+          i18n
         >
           Last name is required.
         </div>
@@ -72,8 +79,10 @@
         <label
           for="email"
           class="block text-sm font-semibold leading-6 text-white"
-          >Email *</label
+          i18n
         >
+          Email *
+        </label>
         <input
           type="email"
           id="email"
@@ -86,6 +95,7 @@
             contactForm.get('email')?.hasError('required')
           "
           class="text-red-500 text-sm"
+          i18n
         >
           Email is required.
         </div>
@@ -95,6 +105,7 @@
             contactForm.get('email')?.hasError('email')
           "
           class="text-red-500 text-sm"
+          i18n
         >
           Please enter a valid email address.
         </div>
@@ -104,8 +115,10 @@
         <label
           for="phone-number"
           class="block text-sm font-semibold leading-6 text-white"
-          >Phone number</label
+          i18n
         >
+          Phone number
+        </label>
         <input
           type="tel"
           id="phone-number"
@@ -118,6 +131,7 @@
             contactForm.get('phoneNumber')?.invalid
           "
           class="text-red-500 text-sm"
+          i18n
         >
           Please enter a valid phone number.
         </div>
@@ -127,8 +141,10 @@
         <label
           for="message"
           class="block text-sm font-semibold leading-6 text-white"
-          >Message *</label
+          i18n
         >
+          Message *
+        </label>
         <textarea
           id="message"
           formControlName="message"
@@ -141,6 +157,7 @@
             contactForm.get('message')?.invalid
           "
           class="text-red-500 text-sm"
+          i18n
         >
           Message is required and must be at least 10 characters long.
         </div>
@@ -153,9 +170,9 @@
           id="privacy-policy"
           class="mr-2"
         />
-        <label for="privacy-policy" class="text-sm leading-6 text-gray-600">
+        <label for="privacy-policy" class="text-sm leading-6 text-gray-600" i18n>
           By selecting this, you agree to our
-          <a href="#" class="font-semibold text-blue-500">privacy policy</a>.
+          <a href="/request" class="font-semibold text-blue-500">privacy policy</a>.
         </label>
         <div
           *ngIf="
@@ -163,6 +180,7 @@
             contactForm.get('privacyPolicy')?.invalid
           "
           class="text-red-500 text-sm"
+          i18n
         >
           You must agree to the privacy policy.
         </div>
@@ -173,6 +191,7 @@
         type="submit"
         [disabled]="contactForm.invalid"
         class="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-500 cursor-pointer"
+        i18n
       >
         Let's talk
       </button>
