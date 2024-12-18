@@ -6,21 +6,9 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} ^vcgrecordz\.eu$ [NC]
 RewriteCond %{REQUEST_URI} ^/$
 RewriteCond %{HTTP:Accept-Language} ^fr [NC]
-RewriteRule ^$ https://fr.vcgrecordz.eu/ [R=302,L]
+RewriteRule ^$ https://vcgrecordz.eu/fr/ [R=302,L]
 
 RewriteCond %{HTTP_HOST} ^vcgrecordz\.eu$ [NC]
 RewriteCond %{REQUEST_URI} ^/$
 RewriteCond %{HTTP:Accept-Language} !^fr [NC]
-RewriteRule ^$ https://en.vcgrecordz.eu/ [R=302,L]
-
-# Ensure Angular routing works for English subdomain
-RewriteCond %{HTTP_HOST} ^en\.vcgrecordz\.eu$ [NC]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /index.html [L]
-
-# Ensure Angular routing works for French subdomain
-RewriteCond %{HTTP_HOST} ^fr\.vcgrecordz\.eu$ [NC]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /index.html [L]
+RewriteRule ^$ https://vcgrecordz.eu/en/ [R=302,L]
