@@ -71,11 +71,13 @@
             },
             "fr": {
               "localize": ["fr"],
-              "outputPath": "dist/vcg-website-fr"
+              "outputPath": "dist/vcg-website-fr",
+              "baseHref": "/"
             },
             "en": {
               "localize": ["en"],
-              "outputPath": "dist/vcg-website-en"
+              "outputPath": "dist/vcg-website-en",
+              "baseHref": "/"
             }
           },
           "defaultConfiguration": "production"

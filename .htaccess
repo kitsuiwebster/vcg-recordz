@@ -2,23 +2,25 @@
 RewriteEngine On
 RewriteBase /
 
-# Detect browser language and redirect accordingly (only for the root)
+# Redirect root domain to subdomains based on browser language
+RewriteCond %{HTTP_HOST} ^vcgrecordz\.eu$ [NC]
+RewriteCond %{REQUEST_URI} ^/$
 RewriteCond %{HTTP:Accept-Language} ^fr [NC]
-RewriteRule ^$ /fr/ [R=302,L]
-RewriteCond %{HTTP:Accept-Language} ^en [NC]
-RewriteRule ^$ /en/ [R=302,L]
+RewriteRule ^$ https://fr.vcgrecordz.eu/ [R=302,L]
 
-# Default redirect to English if no language match
-RewriteRule ^$ /en/ [R=302,L]
+RewriteCond %{HTTP_HOST} ^vcgrecordz\.eu$ [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{HTTP:Accept-Language} !^fr [NC]
+RewriteRule ^$ https://en.vcgrecordz.eu/ [R=302,L]
 
-# Serve Angular app for English (subdirectory /en)
-RewriteCond %{REQUEST_URI} ^/en
+# Ensure Angular routing works for English subdomain
+RewriteCond %{HTTP_HOST} ^en\.vcgrecordz\.eu$ [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^en/(.*)$ /en/index.html [L]
+RewriteRule ^(.*)$ /index.html [L]
 
-# Serve Angular app for French (subdirectory /fr)
-RewriteCond %{REQUEST_URI} ^/fr
+# Ensure Angular routing works for French subdomain
+RewriteCond %{HTTP_HOST} ^fr\.vcgrecordz\.eu$ [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^fr/(.*)$ /fr/index.html [L]
+RewriteRule ^(.*)$ /index.html [L]
