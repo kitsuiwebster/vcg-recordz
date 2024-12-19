@@ -12,7 +12,7 @@ import { GetintouchComponent } from './components/pages/getintouch/getintouch.co
 import { RequestComponent } from './components/pages/request/request.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: NotFoundComponent },
   // { path: '', component: NotYetComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },

@@ -444,7 +444,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="6235392592614223053" datatype="html">
-        <source> Adresee email </source>
+        <source> Adresse email </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/contact/contact.component.html</context>
           <context context-type="linenumber">7,8</context>
@@ -684,7 +684,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="work_with_us" datatype="html">
-        <source> Travillons ensemble! </source>
+        <source> Travaillons ensemble! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
           <context context-type="linenumber">66,68</context>
@@ -763,6 +763,13 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
           <context context-type="linenumber">120,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="seniority-metric" datatype="html">
+        <source> 1 an </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
+          <context context-type="linenumber">123,124</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2471041631220366258" datatype="html">
@@ -1028,7 +1035,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="4726350953683231247" datatype="html">
-        <source> TTrois amis qui sont devenus frères, puis associés.
+        <source> Trois amis qui sont devenus frères, puis associés.
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
