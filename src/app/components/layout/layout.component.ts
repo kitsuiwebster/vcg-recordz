@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterModule, Router } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-layout',
@@ -11,18 +11,26 @@ import { RouterModule, Router } from '@angular/router';
 export class LayoutComponent {
   isMenuOpen = false;
 
-  constructor(private router: Router) {}
-
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
   }
 
   switchLanguage(): void {
-    const currentUrl = this.router.url;
-    const segments = currentUrl.split('/');
-    const currentLanguage = segments[1] === 'fr' ? 'fr' : 'en';
+    const currentUrl = window.location.href;
+    const url = new URL(currentUrl);
+    const pathSegments = url.pathname.split('/');
+
+    // Determine current language
+    const currentLanguage = pathSegments[1] === 'fr' ? 'fr' : 'en';
+
+    // Determine new language
     const newLanguage = currentLanguage === 'en' ? 'fr' : 'en';
-    segments[1] = newLanguage;
-    this.router.navigate([segments.join('/')]);
+
+    // Replace the language in the URL
+    pathSegments[1] = newLanguage;
+
+    // Update the pathname and reload the page
+    url.pathname = pathSegments.join('/');
+    window.location.href = url.toString();
   }
 }
