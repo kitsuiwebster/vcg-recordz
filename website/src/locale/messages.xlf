@@ -10,7 +10,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">128,129</context>
+          <context context-type="linenumber">146,147</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5443518007260759592" datatype="html">
@@ -24,42 +24,53 @@
         <source>Open main menu</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">25,26</context>
+          <context context-type="linenumber">33,34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1726363342938046830" datatype="html">
         <source>About</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3724068243287682962" datatype="html">
         <source>Team</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4980580439123922024" datatype="html">
         <source>Artists</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">88,89</context>
+          <context context-type="linenumber">96,97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7343458434870773763" datatype="html">
+        <source>Stage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
+          <context context-type="linenumber">107</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7143579180750436311" datatype="html">
         <source>Services</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">98,99</context>
+          <context context-type="linenumber">116,117</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
@@ -70,32 +81,32 @@
         <source>Contact</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">108,109</context>
+          <context context-type="linenumber">126,127</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">144,145</context>
+          <context context-type="linenumber">162,163</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8439955599488894226" datatype="html">
         <source>Privacy Policy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">135,136</context>
+          <context context-type="linenumber">153,154</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4689803736602942227" datatype="html">
         <source>Licensing</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">140,141</context>
+          <context context-type="linenumber">158,159</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6182413737873804311" datatype="html">
         <source>© 2024 VCG Recordz. All Rights Reserved.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
-          <context context-type="linenumber">152,153</context>
+          <context context-type="linenumber">170,171</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5736481176444461852" datatype="html">
@@ -188,19 +199,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">218</context>
+          <context context-type="linenumber">224</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">290</context>
+          <context context-type="linenumber">275</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">334</context>
+          <context context-type="linenumber">333</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">431</context>
+          <context context-type="linenumber">430</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4863358245680937508" datatype="html">
@@ -229,7 +240,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">361</context>
+          <context context-type="linenumber">360</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8646670791886981087" datatype="html">
@@ -268,19 +279,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">200</context>
+          <context context-type="linenumber">206</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">272</context>
+          <context context-type="linenumber">257</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">325</context>
+          <context context-type="linenumber">324</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">413</context>
+          <context context-type="linenumber">412</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3123834768080379385" datatype="html">
@@ -291,15 +302,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">209</context>
+          <context context-type="linenumber">215</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">281</context>
+          <context context-type="linenumber">266</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">352</context>
+          <context context-type="linenumber">351</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2503692774352323686" datatype="html">
@@ -309,82 +320,82 @@
           <context context-type="linenumber">163</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3433463178872003050" datatype="html">
-        <source> We collaborated with these artists
-</source>
+      <trans-unit id="6703107967627295976" datatype="html">
+        <source> 🐺 Loupa </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">173,176</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6855762080440447299" datatype="html">
+        <source> Loupa is a French rapper known for his global perspective. He travels around the world to work with artists from abroad, bringing diverse influences to his music. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
+          <context context-type="linenumber">193,195</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5014235541776287990" datatype="html">
         <source> ☁️ Cl6ud6 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">184</context>
+          <context context-type="linenumber">241</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5730678202883314622" datatype="html">
         <source> Cl6ud6 is a French rapper who has underground and modern vibes. He has collaborated with Køni numerous times. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">188,189</context>
+          <context context-type="linenumber">245,246</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6703107967627295976" datatype="html">
-        <source> 🐺 Loupa </source>
+      <trans-unit id="3433463178872003050" datatype="html">
+        <source> We collaborated with these artists
+</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">254</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7523277821089639732" datatype="html">
-        <source> Loupa is a French rapper who has collaborated extensively with Køni and the Parisian artist Cinco. Known for his global perspective, Loupa travels around the world to work with artists from abroad, bringing diverse influences to his music. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">258,261</context>
+          <context context-type="linenumber">295,298</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2129644750487688864" datatype="html">
         <source> ✨ Gaxve </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">307</context>
+          <context context-type="linenumber">306</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2679773721348540371" datatype="html">
-        <source> Gaxve, a producer from Spain, Europe, primarily focused on new-age Breakcore, Drum &amp; Bass, and Jungle, collaborated with MADPOOF on the tracks &quot;Refresh Token&quot; and &quot;Internal Conflict (Unreleased yet)&quot;, released via Breakstation. </source>
+      <trans-unit id="4089929733337047067" datatype="html">
+        <source> Gaxve, a producer from Spain, Europe, primarily focused on new-age Breakcore, Drum &amp; Bass, and Jungle, collaborated with MADPOOF on the tracks &quot;Refresh Token&quot; and &quot;Internal Conflict&quot;, released via Breakstation. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">311,314</context>
+          <context context-type="linenumber">310,313</context>
         </context-group>
       </trans-unit>
       <trans-unit id="198253763042574041" datatype="html">
         <source> Twitter </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">343</context>
+          <context context-type="linenumber">342</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1738317256398883232" datatype="html">
         <source> 💀 CXMET </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">397</context>
+          <context context-type="linenumber">396</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3639215734480424825" datatype="html">
-        <source> CXMET is a phonkwave producer who collaborated with MADPOOF on the track &quot;EYES OF HEAVEN (Unreleased yet)&quot;, released via Breakstation. </source>
+      <trans-unit id="1331062696694990984" datatype="html">
+        <source> CXMET is a phonkwave producer who collaborated with MADPOOF on the track &quot;EYES OF HEAVEN&quot;, released via Breakstation. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">401,402</context>
+          <context context-type="linenumber">400,401</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6607822570334223120" datatype="html">
         <source> Soundcloud </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/artists/artists.component.html</context>
-          <context context-type="linenumber">422</context>
+          <context context-type="linenumber">421</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6235392592614223053" datatype="html">
@@ -455,7 +466,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">351</context>
+          <context context-type="linenumber">412</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8080554617195781514" datatype="html">
@@ -466,7 +477,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">355</context>
+          <context context-type="linenumber">416</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5518121724478085346" datatype="html">
@@ -477,7 +488,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">313</context>
+          <context context-type="linenumber">374</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3984987299681327463" datatype="html">
@@ -488,7 +499,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">317,318</context>
+          <context context-type="linenumber">378,379</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6059304045146733388" datatype="html">
@@ -673,6 +684,13 @@
           <context context-type="linenumber">120,121</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="seniority-metric" datatype="html">
+        <source> 1 year </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
+          <context context-type="linenumber">123,125</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2471041631220366258" datatype="html">
         <source>404</source>
         <context-group purpose="location">
@@ -726,49 +744,49 @@
         <source> Music Distribution </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="846910160706422513" datatype="html">
         <source> Flexible solutions for artists to share their music globally on streaming and download platforms. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">42,43</context>
+          <context context-type="linenumber">52,53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4985040821296430507" datatype="html">
         <source>Beatmaking</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">66,67</context>
+          <context context-type="linenumber">76,77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2249795820872658911" datatype="html">
         <source> Join our beatmaker network and get your productions promoted on YouTube and selling platforms. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">68,69</context>
+          <context context-type="linenumber">78,79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1790499877979064334" datatype="html">
         <source> Mixing/Recording </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8681366695632357075" datatype="html">
         <source> Quality services in hip-hop/rap music recording and/or mixing in our studios in Haute-Savoie, France. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">102,103</context>
+          <context context-type="linenumber">121,122</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8669602264518372960" datatype="html">
         <source>Music Distribution</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">121,122</context>
+          <context context-type="linenumber">140,141</context>
         </context-group>
         <note priority="1" from="description">Music Distribution</note>
       </trans-unit>
@@ -776,35 +794,35 @@
         <source>📤 VCG Distribution</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">128,129</context>
+          <context context-type="linenumber">147,148</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3873464855643729549" datatype="html">
         <source> Music Distribution Services </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">130,131</context>
+          <context context-type="linenumber">149,150</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6381449419320242400" datatype="html">
         <source> We help emerging artists distribute their music on all major streaming and download platforms. We offer two flexible options: a pay-as-you-go plan, where artists pay a flat fee per single or project (up to 12 releases per year), or an unlimited monthly subscription allowing unlimited releases. Subscription artists become part of the VCG family and are showcased on our website. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">133,137</context>
+          <context context-type="linenumber">152,156</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3832294904190046570" datatype="html">
         <source> Get your music distributed! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">145,146</context>
+          <context context-type="linenumber">164,165</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7387280429031998131" datatype="html">
         <source>Beatmaking Services</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">162,163</context>
+          <context context-type="linenumber">181,182</context>
         </context-group>
         <note priority="1" from="description">Beatmaking Services</note>
       </trans-unit>
@@ -812,35 +830,35 @@
         <source>🎹 VCG Production</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">169,170</context>
+          <context context-type="linenumber">188,189</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9088920997397275189" datatype="html">
         <source> Beatmaker Team </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">171,172</context>
+          <context context-type="linenumber">190,191</context>
         </context-group>
       </trans-unit>
       <trans-unit id="302700155267343582" datatype="html">
         <source> Beatmakers can distribute their work through our network, on platforms like BeatStars, and also on our YouTube channel, at no cost. Join our growing community and have your profile showcased on the VCG website. It is also an opportunity to connect to our artists and producers network. Our goal is to federate a strong community of beatmakers. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">174,178</context>
+          <context context-type="linenumber">193,197</context>
         </context-group>
       </trans-unit>
       <trans-unit id="294085606495610488" datatype="html">
         <source> Join our beatmakers! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">185,186</context>
+          <context context-type="linenumber">204,205</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1196821045149843116" datatype="html">
         <source>Studio Services</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">202,203</context>
+          <context context-type="linenumber">221,222</context>
         </context-group>
         <note priority="1" from="description">Studio Services</note>
       </trans-unit>
@@ -848,28 +866,110 @@
         <source>🎙 VCG Studio</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">209,210</context>
+          <context context-type="linenumber">228,229</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9151474315733186764" datatype="html">
         <source> Mixing and Recording Services </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">211,212</context>
+          <context context-type="linenumber">230,231</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8890769924900172694" datatype="html">
         <source> We offer quality recording and mixing services specializing in hip-hop/rap music, with plans to expand to other genres. Based in Haute-Savoie, France, we operate amateur studios. Artists can utilize our services independently or combine them with distribution for maximum reach. We plan to invest in a professional studio in the future. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">214,218</context>
+          <context context-type="linenumber">233,237</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7357705106231668163" datatype="html">
         <source> Book a studio session! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">226,227</context>
+          <context context-type="linenumber">245,246</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6586506773274295109" datatype="html">
+        <source>VCG On Stage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7096384584205098514" datatype="html">
+        <source>Rapper &amp; Performer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6478262763923688701" datatype="html">
+        <source>DJs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3653192896441658524" datatype="html">
+        <source>DJ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2852049119246307961" datatype="html">
+        <source>DJ &amp; Sound Engineer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">79,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8309100352336354364" datatype="html">
+        <source>The VCG Collective</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">104,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5871405740654686969" datatype="html">
+        <source> Behind every great show is a dedicated team. The VCG collective works tirelessly on logistics, sound engineering, visual production, and event management to deliver unforgettable experiences. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">108,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1421931127169081421" datatype="html">
+        <source>Book VCG for Your Event</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">141,142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3124191535140989867" datatype="html">
+        <source> Bring the energy of VCG to your venue or festival. We offer complete performance packages including artists, DJs, and full production support. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">143,144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7551032666547158486" datatype="html">
+        <source> Contact Us for Booking </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">147,148</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5483463624647527325" datatype="html">
@@ -890,7 +990,7 @@
         <source>Display Picture of Kitsui</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">36,38</context>
+          <context context-type="linenumber">38,40</context>
         </context-group>
         <note priority="1" from="description">Display Picture of Kitsui</note>
       </trans-unit>
@@ -898,36 +998,36 @@
         <source> Kitsui </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4518361367072213788" datatype="html">
         <source>VCG Partner</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">50,51</context>
+          <context context-type="linenumber">52,53</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">87,88</context>
+          <context context-type="linenumber">91,92</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">128,129</context>
+          <context context-type="linenumber">134,135</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3483887572973270389" datatype="html">
         <source> Ownership, Business Management, Accounting, Treasury Management, Music production, Mixing, Writing, Singing/Rapping, Client Relationship Management, Marketing and Web Development. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">55,57</context>
+          <context context-type="linenumber">57,59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="814199726012218912" datatype="html">
         <source>Display Picture of Biggy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">73,75</context>
+          <context context-type="linenumber">77,79</context>
         </context-group>
         <note priority="1" from="description">Display Picture of Biggy</note>
       </trans-unit>
@@ -935,7 +1035,7 @@
         <source> Biggy </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7889488014370608780" datatype="html">
@@ -945,14 +1045,14 @@
                 &gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">92,99</context>
+          <context context-type="linenumber">96,103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6853349517793888703" datatype="html">
         <source>Display Picture of Køni</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">114,116</context>
+          <context context-type="linenumber">120,122</context>
         </context-group>
         <note priority="1" from="description">Display Picture of Køni</note>
       </trans-unit>
@@ -960,7 +1060,7 @@
         <source> Køni </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">126</context>
+          <context context-type="linenumber">132</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2605035626925518788" datatype="html">
@@ -970,32 +1070,32 @@
                 &gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">133,139</context>
+          <context context-type="linenumber">139,145</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2299882541604351108" datatype="html">
-        <source>VCG Production</source>
+      <trans-unit id="4522073250799212251" datatype="html">
+        <source> VCG Production </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">158,159</context>
+          <context context-type="linenumber">164</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3439606037780052471" datatype="html">
         <source> Our beatmakers </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">163</context>
+          <context context-type="linenumber">170</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5379339873129690271" datatype="html">
         <source>Oddgyes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">178</context>
+          <context context-type="linenumber">185</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">183,184</context>
+          <context context-type="linenumber">190,191</context>
         </context-group>
         <note priority="1" from="description">Oddgyes</note>
       </trans-unit>
@@ -1003,11 +1103,11 @@
         <source>Shidozz</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">213</context>
+          <context context-type="linenumber">220</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">218,219</context>
+          <context context-type="linenumber">225,226</context>
         </context-group>
         <note priority="1" from="description">Shidozz</note>
       </trans-unit>
@@ -1015,31 +1115,49 @@
         <source>DarkMusicBeat</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">247,248</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">253,254</context>
+          <context context-type="linenumber">254,255</context>
         </context-group>
         <note priority="1" from="description">DarkMusicBeat</note>
+      </trans-unit>
+      <trans-unit id="4855782133598071657" datatype="html">
+        <source> DarkMusicBeat </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
+          <context context-type="linenumber">261</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5438915933113587237" datatype="html">
         <source>NVSDV</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">266</context>
+          <context context-type="linenumber">291</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">271,272</context>
+          <context context-type="linenumber">296,297</context>
         </context-group>
         <note priority="1" from="description">NVSDV</note>
+      </trans-unit>
+      <trans-unit id="2847727029560442525" datatype="html">
+        <source>No$$if</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
+          <context context-type="linenumber">309</context>
+        </context-group>
+        <note priority="1" from="description">No$$if</note>
+      </trans-unit>
+      <trans-unit id="8734365844849696623" datatype="html">
+        <source> No$$if </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
+          <context context-type="linenumber">315</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="7146605348067869782" datatype="html">
         <source> Join our beatmakers </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/team/team.component.html</context>
-          <context context-type="linenumber">283,284</context>
+          <context context-type="linenumber">344,345</context>
         </context-group>
       </trans-unit>
     </body>

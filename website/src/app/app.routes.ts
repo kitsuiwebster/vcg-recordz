@@ -10,6 +10,7 @@ import { ServicesComponent } from './components/pages/services/services.componen
 import { ArtistsComponent } from './components/pages/artists/artists.component';
 import { GetintouchComponent } from './components/pages/getintouch/getintouch.component';
 import { RequestComponent } from './components/pages/request/request.component';
+import { StageComponent } from './components/pages/stage/stage.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,6 +22,7 @@ export const routes: Routes = [
   { path: 'team', component: TeamComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'artists', component: ArtistsComponent },
+  { path: 'stage', component: StageComponent },
   { path: 'getintouch', component: GetintouchComponent },
   { path: 'request', component: RequestComponent },
   { path: '**', redirectTo: 'not-found' } 

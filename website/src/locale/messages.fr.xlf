@@ -1213,6 +1213,110 @@
           <context context-type="linenumber">283,284</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7343458434870773763" datatype="html">
+        <source>Scène</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6586506773274295109" datatype="html">
+        <source>VCG Sur Scène</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7096384584205098514" datatype="html">
+        <source>Rappeur &amp; Performeur</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6478262763923688701" datatype="html">
+        <source>DJs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8133780254620914943" datatype="html">
+        <source>DJ &amp; Producteur</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">79,80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">89,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8309100352336354364" datatype="html">
+        <source>Le Collectif VCG</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">104,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5871405740654686969" datatype="html">
+        <source>Derrière chaque grand spectacle se trouve une équipe dévouée. Le collectif VCG travaille sans relâche sur la logistique, l'ingénierie du son, la production visuelle et la gestion d'événements pour offrir des expériences inoubliables.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">108,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1421931127169081421" datatype="html">
+        <source>Réservez VCG pour Votre Événement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">141,142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3124191535140989867" datatype="html">
+        <source>Apportez l'énergie de VCG à votre lieu ou festival. Nous offrons des forfaits de performance complets incluant artistes, DJs et un support de production complet.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">143,144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7551032666547158486" datatype="html">
+        <source>Contactez-nous pour Réserver</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">147,148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3653192896441658524" datatype="html">
+        <source>DJ</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2852049119246307961" datatype="html">
+        <source>DJ &amp; Ingénieur du Son</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
+          <context context-type="linenumber">79,80</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

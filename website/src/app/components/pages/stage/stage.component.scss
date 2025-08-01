@@ -1,0 +1,23 @@
+// Animations pour les images au hover
+.artist-image,
+.dj-image {
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Style pour les sections
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+// Effet de parallaxe pour le hero
+.hero-parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
