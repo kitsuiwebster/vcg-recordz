@@ -1,3 +1,12 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+/* Police globale Courier New */
+* {
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace !important;
+}
