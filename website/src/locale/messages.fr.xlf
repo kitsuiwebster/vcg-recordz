@@ -691,10 +691,10 @@
         </context-group>
       </trans-unit>
       <trans-unit id="description" datatype="html">
-        <source> Nous distribuons les beats des beatmakers, publions des singles et des albums, et
-          proposons des services professionnels d'enregistrement et de mixage des voix. Notre équipe
-          offre un
-          soutien à chaque étape, de la création à la distribution. </source>
+        <source> Nous distribuons les beats des beatmakers, publions des singles et des albums, 
+          proposons des services professionnels d'enregistrement et de mixage des voix, et offrons 
+          des performances live inoubliables. Notre équipe offre un soutien à chaque étape, 
+          de la création à la distribution et aux performances sur scène. </source>
 
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
@@ -1315,6 +1315,13 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/stage/stage.component.html</context>
           <context context-type="linenumber">79,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vcg_on_stage" datatype="html">
+        <source>VCG sur Scène <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
+          <context context-type="linenumber">98</context>
         </context-group>
       </trans-unit>
     </body>
