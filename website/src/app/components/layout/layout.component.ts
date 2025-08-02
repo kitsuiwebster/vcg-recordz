@@ -15,6 +15,18 @@ export class LayoutComponent {
     this.isMenuOpen = !this.isMenuOpen;
   }
 
+  getCurrentLanguageFlag(): string {
+    const currentUrl = window.location.href;
+    const url = new URL(currentUrl);
+    const pathSegments = url.pathname.split('/');
+    
+    // Determine current language
+    const currentLanguage = pathSegments[1] === 'fr' ? 'fr' : 'en';
+    
+    // Return the flag of the OTHER language (the one to switch to)
+    return currentLanguage === 'en' ? '🇫🇷' : '🇬🇧';
+  }
+
   switchLanguage(): void {
     const currentUrl = window.location.href;
     const url = new URL(currentUrl);
