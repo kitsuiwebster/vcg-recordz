@@ -39,11 +39,14 @@ jobs:
         # 2. Copier la version EN dans /en (en évitant la collision)
         mkdir -p ./dist/vcg-website/browser/en_copy
         cp -r ./dist/vcg-website/browser/en/* ./dist/vcg-website/browser/en_copy/
+        rm -rf ./dist/vcg-website/browser/en
         mv ./dist/vcg-website/browser/en_copy ./dist/vcg-website/browser/en
 
-        # 3. S'assurer que /fr contient bien les fichiers (copie préventive)
-        mkdir -p ./dist/vcg-website/browser/fr
-        cp -r ./dist/vcg-website/browser/fr/* ./dist/vcg-website/browser/fr/
+        # 3. Copier la version FR dans /fr (même logique)
+        mkdir -p ./dist/vcg-website/browser/fr_copy
+        cp -r ./dist/vcg-website/browser/fr/* ./dist/vcg-website/browser/fr_copy/
+        rm -rf ./dist/vcg-website/browser/fr
+        mv ./dist/vcg-website/browser/fr_copy ./dist/vcg-website/browser/fr
 
     - name: Deploy to Hostinger via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
