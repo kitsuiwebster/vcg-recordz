@@ -34,7 +34,7 @@ jobs:
         rm -rf ./dist/vcg-website/browser/en/fr
     
     - name: Deploy to Hostinger via SFTP
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      uses: SamKirkland/FTP-Deploy-Action@v4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
