@@ -19,22 +19,14 @@ jobs:
         node-version: '18'
         cache: 'npm'
     
-    - name: Change to website directory
-      run: cd website
-    
     - name: Install dependencies
-      run: |
-        cd website
-        npm ci
+      run: npm ci
     
     - name: Build Angular app
-      run: |
-        cd website
-        npm run build
+      run: npm run build
     
     - name: Prepare deployment files
       run: |
-        cd website
         # Copy EN version files to root for static assets
         cp -r ./dist/vcg-website/browser/en/* ./dist/vcg-website/browser/
         # Remove duplicate en folder to avoid confusion
@@ -47,7 +39,7 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./website/dist/vcg-website/browser/
+        local-dir: ./dist/vcg-website/browser/
         server-dir: ./public_html/
         dangerous-clean-slate: true
         exclude: |
