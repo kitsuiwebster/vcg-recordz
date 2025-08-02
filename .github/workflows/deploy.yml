@@ -33,19 +33,12 @@ jobs:
         rm -rf ./dist/vcg-website/browser/en/en
         rm -rf ./dist/vcg-website/browser/en/fr
     
-    - name: Deploy to Hostinger via FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+    - name: Deploy to Hostinger via SFTP
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./dist/vcg-website/browser/
-        server-dir: ./public_html/
-        dangerous-clean-slate: true
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          .htaccess
-          .well-known/**
-          cgi-bin/**
+        local_path: './dist/vcg-website/browser/*'
+        remote_path: '/public_html/'
+        sftp_only: true
