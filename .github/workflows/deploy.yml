@@ -25,19 +25,23 @@ jobs:
     - name: Build Angular app
       run: npm run build
 
-    - name: Copy .htaccess to dist
-      run: cp .htaccess ./dist/vcg-website/browser/
+    - name: Copy .htaccess to dist (if needed)
+      run: |
+        if [ -f .htaccess ]; then
+          cp .htaccess ./dist/vcg-website/browser/
+        fi
 
     - name: Prepare deployment files
       run: |
-        # Copier la version EN à la racine
+        # 1. Copier la version EN à la racine
         cp -r ./dist/vcg-website/browser/en/* ./dist/vcg-website/browser/
 
-        # Copier version EN vers /en
-        mkdir -p ./dist/vcg-website/browser/en
-        cp -r ./dist/vcg-website/browser/en/* ./dist/vcg-website/browser/en/
+        # 2. Copier la version EN dans /en (en évitant la collision)
+        mkdir -p ./dist/vcg-website/browser/en_copy
+        cp -r ./dist/vcg-website/browser/en/* ./dist/vcg-website/browser/en_copy/
+        mv ./dist/vcg-website/browser/en_copy ./dist/vcg-website/browser/en
 
-        # Copier version FR vers /fr
+        # 3. S'assurer que /fr contient bien les fichiers (copie préventive)
         mkdir -p ./dist/vcg-website/browser/fr
         cp -r ./dist/vcg-website/browser/fr/* ./dist/vcg-website/browser/fr/
 
