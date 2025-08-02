@@ -2,7 +2,6 @@
 RewriteEngine On
 RewriteBase /
 
-# Redirect root domain to subdomains based on browser language
 RewriteCond %{HTTP_HOST} ^vcgrecordz\.eu$ [NC]
 RewriteCond %{REQUEST_URI} ^/$
 RewriteCond %{HTTP:Accept-Language} ^fr [NC]
@@ -12,3 +11,8 @@ RewriteCond %{HTTP_HOST} ^vcgrecordz\.eu$ [NC]
 RewriteCond %{REQUEST_URI} ^/$
 RewriteCond %{HTTP:Accept-Language} !^fr [NC]
 RewriteRule ^$ https://vcgrecordz.eu/en/ [R=302,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+

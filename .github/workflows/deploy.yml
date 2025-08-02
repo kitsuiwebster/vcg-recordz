@@ -19,14 +19,22 @@ jobs:
         node-version: '18'
         cache: 'yarn'
     
+    - name: Change to website directory
+      run: cd website
+    
     - name: Install dependencies
-      run: yarn install --frozen-lockfile
+      run: |
+        cd website
+        yarn install --frozen-lockfile
     
     - name: Build Angular app
-      run: yarn build
+      run: |
+        cd website
+        yarn build
     
     - name: Prepare deployment files
       run: |
+        cd website
         # Copy EN version files to root for static assets
         cp -r ./dist/vcg-website/browser/en/* ./dist/vcg-website/browser/
         # Remove duplicate en folder to avoid confusion
@@ -39,10 +47,13 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./dist/vcg-website/browser/
+        local-dir: ./website/dist/vcg-website/browser/
         server-dir: ./public_html/
+        dangerous-clean-slate: true
         exclude: |
           **/.git*
           **/.git*/**
           **/node_modules/**
           .htaccess
+          .well-known/**
+          cgi-bin/**
