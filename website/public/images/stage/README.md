@@ -10,9 +10,9 @@ Ajoutez vos photos de concert ici avec les noms suivants :
 - `crew3.jpg` - Photo de l'équipe/logistique (paysage)
 
 ## Photos en portrait
-- `kitsui.jpg` - Photo portrait de Kitsui
-- `koni.jpg` - Photo portrait de Køni  
-- `loupa.jpg` - Photo portrait de Loupa
+- `kitsui.jpeg` - Photo portrait de Kitsui
+- `koni.JPG` - Photo portrait de Køni  
+- `loupa.jpeg` - Photo portrait de Loupa
 - `gary.jpg` - Photo portrait de Gary
 - `baptiste.jpg` - Photo portrait de Baptiste
 - `djoolias.jpg` - Photo portrait de Djoolias
