@@ -8,37 +8,45 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    
+
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '18'
         cache: 'npm'
-    
+
     - name: Install dependencies
       run: npm ci
-    
+
     - name: Build Angular app
       run: npm run build
-    
+
+    - name: Copy .htaccess to dist
+      run: cp .htaccess ./dist/vcg-website/browser/
+
     - name: Prepare deployment files
       run: |
-        # Copy EN version files to root for static assets
+        # Copier la version EN à la racine
         cp -r ./dist/vcg-website/browser/en/* ./dist/vcg-website/browser/
-        # Remove duplicate en folder to avoid confusion
-        rm -rf ./dist/vcg-website/browser/en/en
-        rm -rf ./dist/vcg-website/browser/en/fr
-    
-    - name: Deploy to Hostinger via SFTP
+
+        # Copier version EN vers /en
+        mkdir -p ./dist/vcg-website/browser/en
+        cp -r ./dist/vcg-website/browser/en/* ./dist/vcg-website/browser/en/
+
+        # Copier version FR vers /fr
+        mkdir -p ./dist/vcg-website/browser/fr
+        cp -r ./dist/vcg-website/browser/fr/* ./dist/vcg-website/browser/fr/
+
+    - name: Deploy to Hostinger via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local_path: './dist/vcg-website/browser/*'
-        remote_path: '/public_html/'
-        sftp_only: true
+        local-dir: ./dist/vcg-website/browser/
+        server-dir: /public_html/
+        dangerous-clean-slate: true
