@@ -158,11 +158,18 @@
           <context context-type="linenumber">54,59</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8234809048422223298" datatype="html">
-        <source> 📌 Today, VCG Recordz stands as a hub for artists seeking to collaborate and innovate within the music industry. Operating from two home studios, the label not only produces and mixes their own material but also extends these services to a wide array of local and national artists, steadfastly supporting a vision of creativity, independence, and collective artistic effort. </source>
+      <trans-unit id="8011771701965405407" datatype="html">
+        <source> 📌 Since 2022, VCG Recordz stands as a hub for artists seeking to collaborate and innovate within the music industry. Operating from two home studios, the label not only produces and mixes their own material but also extends these services to a wide array of local and national artists, steadfastly supporting a vision of creativity, independence, and collective artistic effort. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/about/about.component.html</context>
           <context context-type="linenumber">63,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5922027267158779141" datatype="html">
+        <source> 📌 VCG has significantly expanded as a collective since then, with an entire team behind us helping to organize all our events, particularly VCG shows across festivals and venues. What started as a music production label has evolved into a comprehensive entertainment collective, bringing together artists, DJs, sound engineers, and event coordinators to deliver unforgettable live experiences that showcase the energy and talent of the VCG family. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/about/about.component.html</context>
+          <context context-type="linenumber">72,77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7543970803258461263" datatype="html">
@@ -622,73 +629,80 @@
         </context-group>
       </trans-unit>
       <trans-unit id="description" datatype="html">
-        <source> We distribute beatmakers&apos; beats, release singles and albums, and provide professional recording and voice mixing services. Our team is dedicated to ensuring your music reaches its full potential, offering support every step of the way from creation to distribution. </source>
+        <source> We distribute beatmakers&apos; beats, release singles and albums, provide professional recording and voice mixing services, and deliver unforgettable live performances. Our team is dedicated to ensuring your music reaches its full potential, offering support every step of the way from creation to distribution and stage performance. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">72,75</context>
+          <context context-type="linenumber">72,76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="discover_artists" datatype="html">
         <source> Discover Artists <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">85,87</context>
+          <context context-type="linenumber">86,88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="meet_our_team" datatype="html">
         <source> Meet our Team <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">88,90</context>
+          <context context-type="linenumber">89,91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="our_services" datatype="html">
         <source> Our services <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">91,93</context>
+          <context context-type="linenumber">92,94</context>
         </context-group>
       </trans-unit>
       <trans-unit id="discover_beatmakers" datatype="html">
         <source> Discover Beatmakers <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">94,96</context>
+          <context context-type="linenumber">95,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="vcg_on_stage" datatype="html">
+        <source> VCG on Stage <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span aria-hidden=&quot;true&quot;&gt;"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
+          <context context-type="linenumber">98,100</context>
         </context-group>
       </trans-unit>
       <trans-unit id="songs_recorded" datatype="html">
         <source> Songs recorded </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">102,104</context>
+          <context context-type="linenumber">106,108</context>
         </context-group>
       </trans-unit>
       <trans-unit id="projects_distributed" datatype="html">
         <source> Projects Distributed </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">108,110</context>
+          <context context-type="linenumber">112,114</context>
         </context-group>
       </trans-unit>
       <trans-unit id="collaborations" datatype="html">
         <source> Collaborations </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">114,116</context>
+          <context context-type="linenumber">118,120</context>
         </context-group>
       </trans-unit>
       <trans-unit id="seniority" datatype="html">
         <source> Seniority </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">120,121</context>
+          <context context-type="linenumber">124,125</context>
         </context-group>
       </trans-unit>
       <trans-unit id="seniority-metric" datatype="html">
         <source> 1 year </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.html</context>
-          <context context-type="linenumber">123,125</context>
+          <context context-type="linenumber">127,129</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2471041631220366258" datatype="html">
