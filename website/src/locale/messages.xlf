@@ -747,60 +747,110 @@
           <context context-type="linenumber">13,14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8978431831338889412" datatype="html">
-        <source> Explore our services designed for artists and producers: music distribution, beatmaking, and professional mixing/recording. </source>
+      <trans-unit id="8105994416987529876" datatype="html">
+        <source> Explore our services designed for artists and producers: live shows, music distribution, beatmaking, and professional mixing/recording. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
           <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2246149730477071831" datatype="html">
+        <source> Live Shows </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6498448419690644914" datatype="html">
+        <source> Complete live performance packages with artists, DJs, and full production support for festivals and venues. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8811383804434186229" datatype="html">
         <source> Music Distribution </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="846910160706422513" datatype="html">
         <source> Flexible solutions for artists to share their music globally on streaming and download platforms. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">52,53</context>
+          <context context-type="linenumber">77,78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4985040821296430507" datatype="html">
         <source>Beatmaking</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">76,77</context>
+          <context context-type="linenumber">101,102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2249795820872658911" datatype="html">
         <source> Join our beatmaker network and get your productions promoted on YouTube and selling platforms. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">78,79</context>
+          <context context-type="linenumber">103,104</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1790499877979064334" datatype="html">
         <source> Mixing/Recording </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">118</context>
+          <context context-type="linenumber">143</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8681366695632357075" datatype="html">
         <source> Quality services in hip-hop/rap music recording and/or mixing in our studios in Haute-Savoie, France. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">121,122</context>
+          <context context-type="linenumber">146,147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4505621675263149838" datatype="html">
+        <source>VCG Live Shows</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">166,167</context>
+        </context-group>
+        <note priority="1" from="description">VCG Live Shows</note>
+      </trans-unit>
+      <trans-unit id="4555427798179078622" datatype="html">
+        <source>🎤 VCG On Stage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">173,174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5058221521683030695" datatype="html">
+        <source> Live Performances </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">175,176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1020519001756050881" datatype="html">
+        <source> Bring the energy of VCG to your venue or festival. We offer complete performance packages including our talented artists (Kitsui, Køni, Loupa), professional DJs (Gary, Baptiste), and full production support from our dedicated collective. From intimate venues to major festivals, we deliver unforgettable live experiences that showcase the VCG energy. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">178,181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2479768992442892141" datatype="html">
+        <source> Discover our stage team! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">188,189</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8669602264518372960" datatype="html">
         <source>Music Distribution</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">140,141</context>
+          <context context-type="linenumber">205,206</context>
         </context-group>
         <note priority="1" from="description">Music Distribution</note>
       </trans-unit>
@@ -808,35 +858,35 @@
         <source>📤 VCG Distribution</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">147,148</context>
+          <context context-type="linenumber">212,213</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3873464855643729549" datatype="html">
         <source> Music Distribution Services </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">149,150</context>
+          <context context-type="linenumber">214,215</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6381449419320242400" datatype="html">
         <source> We help emerging artists distribute their music on all major streaming and download platforms. We offer two flexible options: a pay-as-you-go plan, where artists pay a flat fee per single or project (up to 12 releases per year), or an unlimited monthly subscription allowing unlimited releases. Subscription artists become part of the VCG family and are showcased on our website. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">152,156</context>
+          <context context-type="linenumber">217,221</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3832294904190046570" datatype="html">
         <source> Get your music distributed! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">164,165</context>
+          <context context-type="linenumber">229,230</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7387280429031998131" datatype="html">
         <source>Beatmaking Services</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">181,182</context>
+          <context context-type="linenumber">246,247</context>
         </context-group>
         <note priority="1" from="description">Beatmaking Services</note>
       </trans-unit>
@@ -844,35 +894,35 @@
         <source>🎹 VCG Production</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">188,189</context>
+          <context context-type="linenumber">253,254</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9088920997397275189" datatype="html">
         <source> Beatmaker Team </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">190,191</context>
+          <context context-type="linenumber">255,256</context>
         </context-group>
       </trans-unit>
       <trans-unit id="302700155267343582" datatype="html">
         <source> Beatmakers can distribute their work through our network, on platforms like BeatStars, and also on our YouTube channel, at no cost. Join our growing community and have your profile showcased on the VCG website. It is also an opportunity to connect to our artists and producers network. Our goal is to federate a strong community of beatmakers. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">193,197</context>
+          <context context-type="linenumber">258,262</context>
         </context-group>
       </trans-unit>
       <trans-unit id="294085606495610488" datatype="html">
         <source> Join our beatmakers! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">204,205</context>
+          <context context-type="linenumber">269,270</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1196821045149843116" datatype="html">
         <source>Studio Services</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">221,222</context>
+          <context context-type="linenumber">286,287</context>
         </context-group>
         <note priority="1" from="description">Studio Services</note>
       </trans-unit>
@@ -880,28 +930,28 @@
         <source>🎙 VCG Studio</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">228,229</context>
+          <context context-type="linenumber">293,294</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9151474315733186764" datatype="html">
         <source> Mixing and Recording Services </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">230,231</context>
+          <context context-type="linenumber">295,296</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8890769924900172694" datatype="html">
         <source> We offer quality recording and mixing services specializing in hip-hop/rap music, with plans to expand to other genres. Based in Haute-Savoie, France, we operate amateur studios. Artists can utilize our services independently or combine them with distribution for maximum reach. We plan to invest in a professional studio in the future. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">233,237</context>
+          <context context-type="linenumber">298,302</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7357705106231668163" datatype="html">
         <source> Book a studio session! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/services/services.component.html</context>
-          <context context-type="linenumber">245,246</context>
+          <context context-type="linenumber">310,311</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6586506773274295109" datatype="html">

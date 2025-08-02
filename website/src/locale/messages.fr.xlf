@@ -822,14 +822,29 @@
           <context context-type="linenumber">13,14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8978431831338889412" datatype="html">
-        <source> Découvrez nos services conçus pour les artistes et producteurs : distribution
+      <trans-unit id="8105994416987529876" datatype="html">
+        <source> Découvrez nos services conçus pour les artistes et producteurs : spectacles vivants, distribution
           musicale, beatmaking et mixage/enregistrement professionnel. </source>
-
         <context-group purpose="location">
           <context context-type="sourcefile">
             src/app/components/pages/services/services.component.html</context>
           <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2246149730477071831" datatype="html">
+        <source> Spectacles Vivants </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6498448419690644914" datatype="html">
+        <source> Forfaits complets de performances live avec artistes, DJs et support de production complet pour festivals et salles. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8811383804434186229" datatype="html">
@@ -885,6 +900,47 @@
           <context context-type="sourcefile">
             src/app/components/pages/services/services.component.html</context>
           <context context-type="linenumber">102,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4505621675263149838" datatype="html">
+        <source>Spectacles VCG</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">166,167</context>
+        </context-group>
+        <note priority="1" from="description">VCG Live Shows</note>
+      </trans-unit>
+      <trans-unit id="4555427798179078622" datatype="html">
+        <source>🎤 VCG Sur Scène</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">173,174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5058221521683030695" datatype="html">
+        <source> Performances Live </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">175,176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1020519001756050881" datatype="html">
+        <source> Apportez l'énergie de VCG à votre salle ou festival. Nous offrons des forfaits de performance complets incluant nos artistes talentueux (Kitsui, Køni, Loupa), DJs professionnels (Gary, Baptiste), et un support de production complet de notre collectif dédié. Des salles intimes aux festivals majeurs, nous livrons des expériences live inoubliables qui mettent en valeur l'énergie VCG. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">178,181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2479768992442892141" datatype="html">
+        <source> Découvrez notre équipe de scène ! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            src/app/components/pages/services/services.component.html</context>
+          <context context-type="linenumber">188,189</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8669602264518372960" datatype="html">
