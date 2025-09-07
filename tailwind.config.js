@@ -13,6 +13,10 @@ module.exports = {
       fontSize: {
         'xxs': '0.625rem',
       },
+      colors: {
+        'primary': '#000000',
+        'secondary': '#ffffff',
+      },
     },
   },
   variants: {},

@@ -9,4 +9,147 @@
 
 body {
   font-family: 'Courier New', Courier, monospace !important;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Global black and white theme - inverted */
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* Override ALL background colors to black */
+.bg-gray-900,
+.bg-gray-800,
+.bg-gray-700,
+.bg-gray-600,
+.bg-gray-500,
+.bg-slate-900,
+.bg-slate-800,
+.bg-blue-900,
+.bg-blue-800,
+.bg-blue-700,
+.bg-blue-600,
+.bg-blue-500,
+.bg-indigo-600,
+.bg-indigo-500,
+.bg-red-500,
+.bg-green-500,
+.bg-white,
+.bg-gray-50,
+.bg-gray-100,
+.bg-gray-200,
+.bg-gray-300,
+.dark\:bg-gray-900,
+.dark\:bg-gray-800,
+.dark\:bg-gray-700,
+.dark\:bg-blue-600 {
+  background-color: #000000 !important;
+}
+
+/* Override ALL text colors to white */
+.text-white,
+.text-gray-300,
+.text-gray-400,
+.text-gray-500,
+.text-gray-600,
+.text-gray-700,
+.text-gray-800,
+.text-gray-900,
+.text-black,
+.text-blue-500,
+.text-blue-600,
+.text-blue-700,
+.text-indigo-500,
+.text-indigo-600,
+.text-red-500,
+.text-red-600,
+.text-green-500,
+.text-green-600,
+.text-yellow-600,
+.text-orange-400,
+.text-purple-600,
+.dark\:text-white,
+.dark\:text-gray-300,
+.dark\:text-gray-400 {
+  color: #ffffff !important;
+}
+
+/* Hover states */
+.hover\:bg-gray-800:hover,
+.hover\:bg-gray-700:hover,
+.hover\:bg-gray-100:hover,
+.hover\:bg-blue-800:hover,
+.hover\:bg-blue-700:hover,
+.hover\:bg-blue-500:hover,
+.hover\:bg-indigo-500:hover,
+.hover\:bg-orange-50:hover,
+.dark\:hover\:bg-gray-700:hover,
+.dark\:hover\:bg-blue-700:hover {
+  background-color: #1a1a1a !important;
+}
+
+.hover\:text-gray-300:hover,
+.hover\:text-white:hover,
+.hover\:text-indigo-500:hover,
+.dark\:hover\:text-white:hover {
+  color: #ffffff !important;
+}
+
+/* Buttons and interactive elements */
+button,
+.btn {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ffffff !important;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+}
+
+/* Force main container to be black */
+main {
+  background-color: #000000 !important;
+}
+
+/* Border colors */
+.border-gray-700,
+.border-gray-600,
+.border-gray-500,
+.border-gray-200,
+.border-gray-100,
+.border-white,
+.dark\:border-gray-700,
+.dark\:border-gray-600 {
+  border-color: #ffffff !important;
+}
+
+/* Form elements */
+input,
+textarea,
+select {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #ffffff;
+  outline-color: #ffffff;
+}
+
+/* Placeholders */
+input::placeholder,
+textarea::placeholder {
+  color: #999999 !important;
 }
