@@ -153,3 +153,8 @@ input::placeholder,
 textarea::placeholder {
   color: #999999 !important;
 }
+
+/* Secret texts - make them invisible on black background */
+.secret-text {
+  color: #000000 !important;
+}
