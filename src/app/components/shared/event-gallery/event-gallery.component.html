@@ -1,0 +1,25 @@
+<div class="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3">
+  <div
+    *ngFor="let slot of slots; let i = index"
+    (mouseenter)="pause(i)"
+    (mouseleave)="resume(i)"
+    class="relative overflow-hidden aspect-[3/4] bg-ink-100"
+  >
+    <img
+      [src]="slot.a"
+      [alt]="alt"
+      loading="lazy"
+      class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-editorial"
+      [class.opacity-0]="!slot.showA"
+      [class.opacity-100]="slot.showA"
+    />
+    <img
+      [src]="slot.b"
+      [alt]="alt"
+      loading="lazy"
+      class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-editorial"
+      [class.opacity-0]="slot.showA"
+      [class.opacity-100]="!slot.showA"
+    />
+  </div>
+</div>

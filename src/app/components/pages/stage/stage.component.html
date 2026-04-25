@@ -1,140 +1,220 @@
-<!-- Hero Section avec photo de concert -->
-<section class="relative h-96 bg-black overflow-hidden rounded-lg mx-4">
-  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50"></div>
-  <div class="relative z-10 flex items-center justify-center h-full">
-    <h1 class="text-4xl md:text-6xl font-bold text-white text-center" i18n>VCG On Stage</h1>
-  </div>
-  <!-- Emplacement pour photo hero en paysage -->
-  <img src="/images/stage/hero.jpg" alt="VCG on stage" class="absolute inset-0 w-full h-full object-cover">
-</section>
+<main class="w-full bg-ink-0 text-ink-900">
+  <!-- Hero plein écran -->
+  <section class="relative">
+    <div class="relative h-[70vh] min-h-[500px] overflow-hidden bg-ink-50">
+      <img loading="lazy" src="/images/stage/hero.jpg" alt="VCG on Stage" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-t from-ink-0 via-ink-0/30 to-transparent"></div>
 
-<!-- Section Artistes -->
-<section class="py-16 px-4 bg-black rounded-lg my-8 mx-4">
-  <div class="max-w-7xl mx-auto">
-    <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12" i18n>Artists</h2>
-    
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-      <!-- Loupa -->
-      <div class="text-center">
-        <div class="w-64 h-64 mx-auto mb-4 bg-gray-800 rounded-lg overflow-hidden">
-          <!-- Emplacement pour photo portrait -->
-          <img src="/images/stage/loupa.jpeg" alt="Loupa" class="w-full h-full object-cover">
-        </div>
-        <h3 class="text-2xl font-bold text-yellow-600">LOUPA</h3>
-        <p class="text-gray-300 mt-2" i18n>Artist & Performer</p>
-      </div>
-      
-      <!-- Køni -->
-      <div class="text-center">
-        <div class="w-64 h-64 mx-auto mb-4 bg-gray-800 rounded-lg overflow-hidden">
-          <!-- Emplacement pour photo portrait -->
-          <img src="/images/stage/koni.JPG" alt="Køni" class="w-full h-full object-cover">
-        </div>
-        <h3 class="text-2xl font-bold text-yellow-600">KØNI</h3>
-        <p class="text-gray-300 mt-2" i18n>Artist & Performer</p>
-      </div>
-      
-      <!-- Kitsui -->
-      <div class="text-center">
-        <div class="w-64 h-64 mx-auto mb-4 bg-gray-800 rounded-lg overflow-hidden">
-          <!-- Emplacement pour photo portrait -->
-          <img src="/images/stage/kitsui.jpeg" alt="Kitsui" class="w-full h-full object-cover">
-        </div>
-        <h3 class="text-2xl font-bold text-yellow-600">KITSUI</h3>
-        <p class="text-gray-300 mt-2" i18n>Artist & Performer</p>
+      <div class="relative z-10 h-full max-w-7xl mx-auto px-6 sm:px-10 flex flex-col justify-end pb-12 sm:pb-20">
+        <p class="eyebrow mb-6" i18n="@@stage.hero.eyebrow">VCG on Stage</p>
+        <h1 class="font-display text-display-lg font-semibold text-balance" i18n="@@stage.hero.title">
+          Live.<br />Énergie.<br />Collectif.
+        </h1>
       </div>
     </div>
-    
-    <!-- Photo de groupe paysage -->
-    <div class="w-full h-96 bg-gray-800 rounded-lg overflow-hidden">
-      <!-- Emplacement pour photo de groupe en paysage -->
-      <img src="/images/stage/artists-group.jpg" alt="VCG Artists" class="w-full h-full object-cover">
-    </div>
-  </div>
-</section>
 
-<!-- Section DJs -->
-<section class="py-16 px-4 bg-gray-900 rounded-lg my-8 mx-4">
-  <div class="max-w-7xl mx-auto">
-    <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12" i18n>DJs</h2>
-    
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 justify-items-center">
-      <!-- Gary -->
-      <div class="text-center">
-        <div class="w-64 h-64 mx-auto mb-4 bg-gray-800 rounded-lg overflow-hidden">
-          <!-- Emplacement pour photo portrait -->
-          <img src="/images/stage/gary.jpg" alt="Gary" class="w-full h-full object-cover">
-        </div>
-        <h3 class="text-2xl font-bold text-purple-600">GARY</h3>
-        <p class="text-gray-300 mt-2" i18n>DJ</p>
-      </div>
-      
-      <!-- Baptiste -->
-      <div class="text-center">
-        <div class="w-64 h-64 mx-auto mb-4 bg-gray-800 rounded-lg overflow-hidden">
-          <!-- Emplacement pour photo portrait -->
-          <img src="/images/stage/baptiste.jpg" alt="Baptiste" class="w-full h-full object-cover">
-        </div>
-        <h3 class="text-2xl font-bold text-purple-600">BAPTISTE</h3>
-        <p class="text-gray-300 mt-2" i18n>DJ & Sound Engineer</p>
+    <div class="border-b border-ink-200">
+      <div class="max-w-7xl mx-auto px-6 sm:px-10 py-10 sm:py-14 grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+        <p class="md:col-span-8 text-lg sm:text-xl text-ink-600 leading-relaxed" i18n="@@stage.hero.lead">
+          Des scènes intimes aux grands festivals, on ramène toute l'énergie du collectif. Artistes, DJs, techniciens, une même équipe sur scène.
+        </p>
+        <a routerLink="/contact" class="md:col-span-4 md:text-right">
+          <span class="btn-primary">
+            <span i18n="@@stage.hero.cta">Booker VCG</span>
+          </span>
+        </a>
       </div>
     </div>
-    
-    <!-- Photo DJs en action paysage -->
-    <div class="w-full h-96 bg-gray-800 rounded-lg overflow-hidden">
-      <!-- Emplacement pour photo DJs en paysage -->
-      <img src="/images/stage/djs-action.jpg" alt="VCG DJs" class="w-full h-full object-cover">
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- Section Collectif / Logistique -->
-<section class="py-16 px-4 bg-black rounded-lg my-8 mx-4">
-  <div class="max-w-7xl mx-auto">
-    <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12" i18n>The VCG Collective</h2>
-    
-    <div class="text-center mb-12">
-      <p class="text-xl text-gray-300 max-w-3xl mx-auto" i18n>
-        Behind every great show is a dedicated team. The VCG collective works tirelessly on logistics, 
-        sound engineering, visual production, and event management to deliver unforgettable experiences.
+  <!-- Artistes -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 mb-16">
+        <div class="md:col-span-4">
+          <p class="eyebrow mb-4" i18n="@@stage.artists.eyebrow">Sur scène</p>
+        </div>
+        <div class="md:col-span-8">
+          <h2 class="font-display text-display-sm font-semibold" i18n="@@stage.artists.title">
+            Les artistes live.
+          </h2>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
+        <article class="group">
+          <div class="relative overflow-hidden aspect-[3/4] bg-ink-100">
+            <img loading="lazy" src="/images/stage/loupa.jpeg" alt="Loupa live" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105" />
+          </div>
+          <div class="pt-5">
+            <p class="meta mb-1" i18n="@@stage.artist.role">Artiste</p>
+            <h3 class="font-display text-2xl font-semibold">Loupa</h3>
+          </div>
+        </article>
+
+        <article class="group">
+          <div class="relative overflow-hidden aspect-[3/4] bg-ink-100">
+            <img loading="lazy" src="/images/stage/koni.JPG" alt="Køni live" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105" />
+          </div>
+          <div class="pt-5">
+            <p class="meta mb-1" i18n="@@stage.artist.role">Artiste</p>
+            <h3 class="font-display text-2xl font-semibold">Køni</h3>
+          </div>
+        </article>
+
+        <article class="group">
+          <div class="relative overflow-hidden aspect-[3/4] bg-ink-100">
+            <img loading="lazy" src="/images/stage/kitsui.jpeg" alt="Kitsui live" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105" />
+          </div>
+          <div class="pt-5">
+            <p class="meta mb-1" i18n="@@stage.artist.role">Artiste</p>
+            <h3 class="font-display text-2xl font-semibold">Kitsui</h3>
+          </div>
+        </article>
+      </div>
+
+      <!-- Photo panorama artistes -->
+      <div class="relative overflow-hidden aspect-[21/9] bg-ink-100 mt-12 sm:mt-16">
+        <img loading="lazy" src="/images/stage/crew2.jpg" alt="Les artistes VCG" class="absolute inset-0 w-full h-full object-cover" />
+      </div>
+      <p class="meta mt-4 text-ink-400">
+        <span i18n="@@stage.artists.credit.label">Crédit photo :</span>
+        <a [href]="igUrl('dylan.yagami')" target="_blank" rel="noopener noreferrer" class="hover:text-ink-900 transition-colors">&#64;dylan.yagami</a>
       </p>
     </div>
-    
-    <!-- Grille de photos mixte portrait/paysage -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <!-- Photo 1 - Portrait -->
-      <div class="bg-gray-800 rounded-lg overflow-hidden h-96">
-        <img src="/images/stage/crew1.jpg" alt="VCG Crew" class="w-full h-full object-cover">
+  </section>
+
+  <!-- DJs -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 mb-16">
+        <div class="md:col-span-4">
+          <p class="eyebrow mb-4" i18n="@@stage.djs.eyebrow">En live</p>
+        </div>
+        <div class="md:col-span-8">
+          <h2 class="font-display text-display-sm font-semibold" i18n="@@stage.djs.title">
+            Les DJs.
+          </h2>
+        </div>
       </div>
-      
-      <!-- Photo 2 - Paysage (prend 2 colonnes) -->
-      <div class="bg-gray-800 rounded-lg overflow-hidden h-96 md:col-span-2">
-        <img src="/images/stage/crew2.jpg" alt="VCG Crew" class="w-full h-full object-cover">
+
+      <div class="grid grid-cols-2 gap-4 sm:gap-6 max-w-2xl mx-auto">
+        <article class="group">
+          <div class="relative overflow-hidden aspect-[3/4] bg-ink-100">
+            <img loading="lazy" src="/images/stage/gary.jpg" alt="Gary" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105" />
+          </div>
+          <div class="pt-4">
+            <p class="meta mb-1" i18n="@@stage.dj.role">DJ</p>
+            <h3 class="font-display text-2xl font-semibold">Gary</h3>
+          </div>
+        </article>
+
+        <article class="group">
+          <div class="relative overflow-hidden aspect-[3/4] bg-ink-100">
+            <img loading="lazy" src="/images/stage/djoolias.jpg" alt="Djoolias" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105" />
+          </div>
+          <div class="pt-4">
+            <p class="meta mb-1" i18n="@@stage.dj.role2">DJ &amp; Sound Engineer</p>
+            <h3 class="font-display text-2xl font-semibold">Djoolias</h3>
+          </div>
+        </article>
       </div>
-      
-      <!-- Photo 3 - Paysage (prend 2 colonnes) -->
-      <div class="bg-gray-800 rounded-lg overflow-hidden h-96 md:col-span-2">
-        <img src="/images/stage/crew3.jpg" alt="VCG Crew" class="w-full h-full object-cover">
+
+      <div class="relative overflow-hidden aspect-[21/9] bg-ink-100 mt-12 sm:mt-16">
+        <img loading="lazy" src="/images/stage/events/chatnoir_01.jpg" alt="DJs en live" class="absolute inset-0 w-full h-full object-cover" />
       </div>
-      
-      <!-- Photo 4 - Portrait -->
-      <div class="bg-gray-800 rounded-lg overflow-hidden h-96">
-        <img src="/images/stage/crew4.jpg" alt="VCG Crew" class="w-full h-full object-cover">
+      <p class="meta mt-4 text-ink-400">
+        <span i18n="@@stage.djs.credit.label">Crédit photo :</span>
+        <a [href]="igUrl('ader_alaa')" target="_blank" rel="noopener noreferrer" class="hover:text-ink-900 transition-colors">&#64;ader_alaa</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Collectif -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 mb-16 items-end">
+        <div class="md:col-span-5">
+          <p class="eyebrow mb-4" i18n="@@stage.crew.eyebrow">Le collectif</p>
+          <h2 class="font-display text-display-sm font-semibold" i18n="@@stage.crew.title">
+            L'équipe qui fait tourner la machine.
+          </h2>
+        </div>
+        <div class="md:col-span-7">
+          <p class="text-ink-600 leading-relaxed" i18n="@@stage.crew.body">
+            Derrière chaque date, un collectif dédié : son, lumière, captation, logistique, production d'événement. Pas de show sans eux.
+          </p>
+        </div>
+      </div>
+
+      <div class="relative overflow-hidden aspect-[21/9] bg-ink-100">
+        <img loading="lazy" src="/images/stage/events/portaz_02.webp" alt="VCG Crew" class="absolute inset-0 w-full h-full object-cover" />
+      </div>
+      <p class="meta mt-4 text-ink-400">
+        <span i18n="@@stage.crew.credit.label">Crédit photo :</span>
+        <a [href]="igUrl('e_theillard')" target="_blank" rel="noopener noreferrer" class="hover:text-ink-900 transition-colors">&#64;e_theillard</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Historique des dates -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 mb-16 items-end">
+        <div class="md:col-span-5">
+          <p class="eyebrow mb-4" i18n="@@stage.history.eyebrow">Historique</p>
+          <h2 class="font-display text-display-sm font-semibold" i18n="@@stage.history.title">
+            Toutes les dates jouées.
+          </h2>
+        </div>
+        <div class="md:col-span-7">
+          <p class="text-ink-600 leading-relaxed" i18n="@@stage.history.body">
+            Chaque scène, chaque festival, chaque crew rencontré. La trajectoire live de VCG, du premier au dernier set.
+          </p>
+        </div>
+      </div>
+
+      <article *ngFor="let ev of events" class="border-t border-ink-200 py-12 sm:py-16">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-8">
+          <div class="md:col-span-3">
+            <p class="meta">{{ ev.date }}</p>
+          </div>
+          <div class="md:col-span-9 space-y-3">
+            <h3 class="font-display text-2xl sm:text-3xl font-semibold">{{ ev.title }}</h3>
+            <p class="meta">{{ ev.location }}</p>
+            <p class="text-ink-600">{{ ev.lineup }}</p>
+          </div>
+        </div>
+
+        <app-event-gallery [photos]="ev.photos" [alt]="ev.title"></app-event-gallery>
+
+        <p class="meta mt-4 text-ink-400">
+          <span i18n="@@stage.history.creditLabel">Crédit photo :</span>
+          <ng-container *ngFor="let c of ev.credits; let last = last">
+            <a [href]="igUrl(c.handle)" target="_blank" rel="noopener noreferrer" class="hover:text-ink-900 transition-colors">&#64;{{ c.handle }}</a><span *ngIf="c.role"> ({{ c.role }})</span><span *ngIf="!last"> · </span>
+          </ng-container>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Booking CTA -->
+  <section>
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-24 sm:py-32">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+        <div class="md:col-span-7">
+          <p class="eyebrow mb-6" i18n="@@stage.booking.eyebrow">Booking</p>
+          <h2 class="font-display text-display-md font-semibold text-balance" i18n="@@stage.booking.title">
+            Une scène. Une date. On vient.
+          </h2>
+          <p class="mt-8 max-w-xl text-lg text-ink-600 leading-relaxed" i18n="@@stage.booking.body">
+            Salles, festivals, soirées privées. Packages complets disponibles : artistes, DJs, technique, lumière. Envoyez-nous le contexte, on revient vers vous.
+          </p>
+        </div>
+        <div class="md:col-span-5 md:text-right">
+          <a routerLink="/contact" class="btn-primary btn-lg" i18n="@@stage.booking.cta">Nous contacter</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- Section Contact/Booking -->
-<section class="py-16 px-4 bg-gray-900 rounded-lg my-8 mx-4">
-  <div class="max-w-4xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-bold text-white mb-8" i18n>Book VCG for Your Event</h2>
-    <p class="text-xl text-gray-300 mb-8" i18n>
-      Bring the energy of VCG to your venue or festival. We offer complete performance packages 
-      including artists, DJs, and full production support.
-    </p>
-    <a routerLink="/contact" class="inline-block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" i18n>
-      Contact Us for Booking
-    </a>
-  </div>
-</section>
+  </section>
+</main>

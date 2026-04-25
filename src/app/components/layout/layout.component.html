@@ -1,173 +1,104 @@
-<nav class="border-gray-200 dark:bg-gray-900">
-  <div
-    class="max-w-screen-xl flex flex-wrap items-center lg:justify-between justify-center mx-auto p-4 items-center"
-  >
-    <a
-      routerLink="/"
-      class="text-2xl font-semibold whitespace-nowrap dark:text-white px-4"
-      i18n
-      >💿 VCG Recordz</a
-    >
-    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <button
-        type="button"
-        class="m-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        routerLink="/getintouch"
-        i18n
-      >
-        Get in touch
-      </button>
-      <button
-        type="button"
-        class="m-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        (click)="switchLanguage()"
-      >
-        {{ getCurrentLanguageFlag() }}
-      </button>
+<header class="sticky top-0 z-40 bg-ink-0/80 backdrop-blur-md border-b border-ink-200">
+  <nav class="max-w-7xl mx-auto px-6 sm:px-10">
+    <div class="flex items-center justify-between h-16">
+      <a routerLink="/" class="flex items-center gap-2 font-display font-bold text-base tracking-tight text-ink-900">
+        <img src="/favicon.ico" alt="" class="w-6 h-6 object-contain" />
+        <span i18n="@@nav.brand">VCG RECORDZ</span>
+      </a>
 
-      <button
-        type="button"
-        (click)="toggleMenu()"
-        class="m-2 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-      >
-        <span class="sr-only" i18n>Open main menu</span>
-        <svg
-          class="w-5 h-5"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 17 14"
+      <div class="hidden md:flex items-center gap-10">
+        <a routerLink="/artists" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.artists">Artistes</a>
+        <a routerLink="/team" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.team">Équipe</a>
+        <a routerLink="/stage" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.stage">Scène</a>
+        <a routerLink="/services" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.services">Services</a>
+        <a routerLink="/contact" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.contact">Contact</a>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <button
+          type="button"
+          (click)="switchLanguage()"
+          class="flex items-center gap-1 text-xs font-mono tracking-widest hover:text-ink-900 transition-colors"
+          aria-label="Switch language"
         >
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M1 1h15M1 7h15M1 13h15"
-          />
-        </svg>
-      </button>
-    </div>
-    <div
-      [class.hidden]="!isMenuOpen"
-      class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-      id="navbar-cta"
-    >
-      <ul
-        class="flex flex-col font-medium justify-center p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
-      >
-        <li>
-          <a
-            routerLink="/"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            i18n
-            >Home</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/about"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            i18n
-            >About</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/team"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            i18n
-            >Team</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/artists"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            i18n
-            >Artists</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/stage"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            i18n
-            >Stage</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/services"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            i18n
-            >Services</a
-          >
-        </li>
-        <li>
-          <a
-            routerLink="/contact"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            i18n
-            >Contact</a
-          >
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          <span [class]="isFrench() ? 'text-ink-900' : 'text-ink-500'">FR</span>
+          <span class="text-ink-400">/</span>
+          <span [class]="isFrench() ? 'text-ink-500' : 'text-ink-900'">EN</span>
+        </button>
 
-<main
-  class="bg-gray-900 flex-grow py-8 flex items-center justify-center w-full"
->
+        <button
+          type="button"
+          (click)="toggleMenu()"
+          class="md:hidden inline-flex items-center justify-center w-10 h-10 border border-ink-200 hover:border-ink-900 transition-colors"
+          [attr.aria-expanded]="isMenuOpen"
+        >
+          <span class="sr-only" i18n="@@nav.menu.toggle">Menu</span>
+          <svg *ngIf="!isMenuOpen" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.25"/></svg>
+          <svg *ngIf="isMenuOpen" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.25"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div *ngIf="isMenuOpen" class="md:hidden pb-6 pt-2">
+      <div class="flex flex-col gap-4 border-t border-ink-200 pt-6">
+        <a routerLink="/artists" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.artists">Artistes</a>
+        <a routerLink="/team" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.team">Équipe</a>
+        <a routerLink="/stage" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.stage">Scène</a>
+        <a routerLink="/services" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.services">Services</a>
+        <a routerLink="/contact" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="flex-grow w-full bg-ink-0">
   <router-outlet></router-outlet>
 </main>
 
-<footer class="dark:bg-gray-900">
-  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-    <div class="sm:flex sm:items-center sm:justify-between">
-      <span
-        class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-        i18n
-        >💿 VCG Recordz</span
-      >
-      <ul
-        class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 justify-center"
-      >
-        <li>
-          <a routerLink="/request" class="hover:underline me-4 md:me-6" i18n
-            >Privacy Policy</a
-          >
-        </li>
-        <li>
-          <a routerLink="/request" class="hover:underline me-4 md:me-6" i18n
-            >Licensing</a
-          >
-        </li>
-        <li>
-          <a routerLink="/contact" class="hover:underline" i18n>Contact</a>
-        </li>
-      </ul>
+<footer class="border-t border-ink-200 bg-ink-0">
+  <div class="max-w-7xl mx-auto px-6 sm:px-10 py-16">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+      <div class="col-span-2 md:col-span-1">
+        <a routerLink="/" class="font-display font-bold text-lg tracking-tight text-ink-900 block mb-4" i18n="@@footer.brand">VCG RECORDZ</a>
+        <p class="text-sm text-ink-500 max-w-xs" i18n="@@footer.tagline">
+          Label musical indépendant. Créé en 2024 à Valleiry.
+        </p>
+      </div>
+
+      <div>
+        <p class="eyebrow mb-4" i18n="@@footer.explore">Explorer</p>
+        <ul class="space-y-2 text-sm text-ink-500">
+          <li><a routerLink="/artists" class="hover:text-ink-900 transition-colors" i18n="@@nav.artists">Artistes</a></li>
+          <li><a routerLink="/team" class="hover:text-ink-900 transition-colors" i18n="@@nav.team">Équipe</a></li>
+          <li><a routerLink="/stage" class="hover:text-ink-900 transition-colors" i18n="@@nav.stage">Scène</a></li>
+          <li><a routerLink="/services" class="hover:text-ink-900 transition-colors" i18n="@@nav.services">Services</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="eyebrow mb-4" i18n="@@footer.company">Label</p>
+        <ul class="space-y-2 text-sm text-ink-500">
+          <li><a routerLink="/about" class="hover:text-ink-900 transition-colors" i18n="@@footer.about">Notre histoire</a></li>
+          <li><a routerLink="/contact" class="hover:text-ink-900 transition-colors" i18n="@@nav.contact">Contact</a></li>
+          <li><a routerLink="/licensing" class="hover:text-ink-900 transition-colors" i18n="@@footer.licensing">Licensing</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="eyebrow mb-4" i18n="@@footer.legal">Légal</p>
+        <ul class="space-y-2 text-sm text-ink-500">
+          <li><a routerLink="/privacy" class="hover:text-ink-900 transition-colors" i18n="@@footer.privacy">Confidentialité</a></li>
+          <li><a routerLink="/terms" class="hover:text-ink-900 transition-colors" i18n="@@footer.terms">Conditions</a></li>
+          <li><a routerLink="/cookies" class="hover:text-ink-900 transition-colors" i18n="@@footer.cookies">Cookies</a></li>
+        </ul>
+      </div>
     </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <span
-      class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
-      i18n
-      >© 2024 VCG Recordz. All Rights Reserved.</span
-    >
+
+    <hr class="rule" />
+
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pt-8">
+      <p class="meta" i18n="@@footer.copyright">© 2026 VCG Recordz · All rights reserved</p>
+      <p class="meta" i18n="@@footer.location">Valleiry · Haute-Savoie · France</p>
+    </div>
   </div>
 </footer>

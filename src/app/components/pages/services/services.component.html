@@ -1,315 +1,171 @@
-<section class="py-14">
-  <div class="max-w-screen-xl mx-auto px-4 text-gray-300 md:px-8">
-    <div class="max-w-xl space-y-3">
-      <p class="text-white text-3xl font-semibold sm:text-4xl" i18n>Services</p>
-      <p i18n>
-        Explore our services designed for artists and producers: live shows, music
-        distribution, beatmaking, and professional mixing/recording.
+<main class="w-full bg-ink-0 text-ink-900">
+  <!-- Hero -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-24 sm:py-32">
+      <div class="flex items-start justify-between mb-16">
+        <p class="eyebrow" i18n="@@services.hero.eyebrow">Services</p>
+        <p class="meta hidden sm:block" i18n="@@services.hero.meta">Live · Distribution · Production · Studio</p>
+      </div>
+      <h1 class="font-display text-display-md font-semibold text-balance max-w-4xl" i18n="@@services.hero.title">
+        Tout ce qu'il faut pour faire exister la musique.
+      </h1>
+      <p class="mt-10 max-w-2xl text-lg text-ink-600 leading-relaxed" i18n="@@services.hero.lead">
+        Quatre métiers complémentaires, pensés pour les artistes et les producteurs qui veulent avancer sans compromis.
       </p>
     </div>
-    <div class="mt-12">
-      <ul
-        class="grid gap-x-12 divide-y sm:grid-cols-2 sm:gap-y-8 sm:divide-y-0 lg:divide-x lg:grid-cols-4 lg:gap-x-0"
-      >
-        <!-- Feature 1 - Shows -->
-        <li class="feature-1 space-y-3 py-8 lg:px-12 sm:py-0">
-          <div
-            class="w-12 h-12 p-2 border text-blue-600 rounded-full flex items-center justify-center"
-          >
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12 2L14.09 8.26L20 9L14 14.74L15.18 21L12 17.77L8.82 21L10 14.74L4 9L9.91 8.26L12 2Z"
-                fill="#ffffff"
-              />
+  </section>
+
+  <!-- Services grid (overview) -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-24">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12">
+        <div class="space-y-4">
+          <div class="w-12 h-12 border border-ink-300 flex items-center justify-center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+              <path d="M3 12h4l3-9 4 18 3-9h4" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h4 class="text-lg text-blue-600 font-semibold" i18n>
-            Live Shows
-          </h4>
-          <p i18n>
-            Complete live performance packages with artists, DJs, and full production support for festivals and venues.
+          <h3 class="font-display text-xl font-semibold" i18n="@@services.overview.live.title">Live Shows</h3>
+          <p class="text-sm text-ink-500 leading-relaxed" i18n="@@services.overview.live.body">
+            Packages performance complets avec artistes, DJs et production, pour festivals et salles.
           </p>
-        </li>
-        <!-- Feature 2 -->
-        <li class="feature-2 space-y-3 py-8 lg:px-12 sm:py-0">
-          <div
-            class="w-12 h-12 p-2 border text-blue-600 rounded-full flex items-center justify-center"
-          >
-          <svg
-          width="800px"
-          height="800px"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M11.25 16.9999C11.25 16.5857 10.9142 16.2499 10.5 16.2499C10.0858 16.2499 9.75 16.5857 9.75 16.9999C9.75 17.4142 10.0858 17.7499 10.5 17.7499C10.9142 17.7499 11.25 17.4142 11.25 16.9999Z"
-            fill="#ffffff"
-          />
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M8.67239 7.54199H15.3276C18.7024 7.54199 20.3898 7.54199 21.3377 8.52882C22.2855 9.51564 22.0625 11.0403 21.6165 14.0895L21.1935 16.9811C20.8437 19.3723 20.6689 20.5679 19.7717 21.2839C18.8745 21.9999 17.5512 21.9999 14.9046 21.9999H9.09534C6.4488 21.9999 5.12553 21.9999 4.22834 21.2839C3.33115 20.5679 3.15626 19.3723 2.80648 16.9811L2.38351 14.0895C1.93748 11.0403 1.71447 9.51565 2.66232 8.52882C3.61017 7.54199 5.29758 7.54199 8.67239 7.54199ZM12.75 10.4999C12.75 10.0857 12.4142 9.74995 12 9.74995C11.5858 9.74995 11.25 10.0857 11.25 10.4999V14.878C11.0154 14.7951 10.763 14.7499 10.5 14.7499C9.25736 14.7499 8.25 15.7573 8.25 16.9999C8.25 18.2426 9.25736 19.2499 10.5 19.2499C11.7426 19.2499 12.75 18.2426 12.75 16.9999V13.3197C13.4202 13.8633 14.2617 14.2499 15 14.2499C15.4142 14.2499 15.75 13.9142 15.75 13.4999C15.75 13.0857 15.4142 12.7499 15 12.7499C14.6946 12.7499 14.1145 12.5313 13.5835 12.0602C13.0654 11.6006 12.75 11.0386 12.75 10.4999Z"
-            fill="#ffffff"
-          />
-          <path
-            opacity="0.4"
-            d="M8.50956 2.00001H15.4897C15.7221 1.99995 15.9004 1.99991 16.0562 2.01515C17.164 2.12352 18.0708 2.78958 18.4553 3.68678H5.54395C5.92846 2.78958 6.83521 2.12352 7.94303 2.01515C8.09884 1.99991 8.27708 1.99995 8.50956 2.00001Z"
-            fill="#ffffff"
-          />
-          <path
-            opacity="0.7"
-            d="M6.3102 4.72266C4.91958 4.72266 3.77931 5.56241 3.39878 6.67645C3.39085 6.69967 3.38325 6.72302 3.37598 6.74647C3.77413 6.6259 4.18849 6.54713 4.60796 6.49336C5.68833 6.35485 7.05367 6.35492 8.6397 6.35501H15.5318C17.1178 6.35492 18.4832 6.35485 19.5635 6.49336C19.983 6.54713 20.3974 6.6259 20.7955 6.74647C20.7883 6.72302 20.7806 6.69967 20.7727 6.67645C20.3922 5.56241 19.2519 4.72266 17.8613 4.72266H6.3102Z"
-            fill="#ffffff"
-          />
-        </svg>
-          </div>
-          <h4 class="text-lg text-blue-600 font-semibold" i18n>
-            Music Distribution
-          </h4>
-          <p i18n>
-            Flexible solutions for artists to share their music globally on
-            streaming and download platforms.
-          </p>
-        </li>
-        <!-- Feature 2 -->
-        <li class="feature-2 space-y-3 py-8 lg:px-12 sm:py-0">
-          <div
-            class="w-12 h-12 border text-blue-600 rounded-full flex items-center justify-center"
-          >
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M22 21C23.1046 21 24 20.1046 24 19V5C24 3.89543 23.1046 3 22 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H22ZM11 5H8.98486V13H7.98511V19H12V13H11V5ZM18.0151 19H22V5H19.0151V13H18.0151V19ZM17.0151 13H16.0151V5H14V13H13V19H17.0151V13ZM6.98511 19V13H5.98486V5H3L3 19H6.98511Z"
-                fill="#ffffff"
-              />
+        </div>
+
+        <div class="space-y-4">
+          <div class="w-12 h-12 border border-ink-300 flex items-center justify-center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+              <path d="M12 3v18M3 12h18" stroke-linecap="round"/>
+              <circle cx="12" cy="12" r="9"/>
             </svg>
           </div>
-          <h4 class="text-lg text-blue-600 font-semibold" i18n>Beatmaking</h4>
-          <p i18n>
-            Join our beatmaker network and get your productions promoted on
-            YouTube and selling platforms.
+          <h3 class="font-display text-xl font-semibold" i18n="@@services.overview.distribution.title">Distribution</h3>
+          <p class="text-sm text-ink-500 leading-relaxed" i18n="@@services.overview.distribution.body">
+            Vos sorties sur toutes les plateformes de streaming et de téléchargement majeures.
           </p>
-        </li>
-        <!-- Feature 4 -->
-        <li class="feature-4 space-y-3 py-8 lg:px-12 sm:py-0">
-          <div
-            class="w-12 h-12 p-2 border text-blue-600 rounded-full flex items-center justify-center"
-          >
-          <svg
-          version="1.0"
-          id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="800px"
-          height="800px"
-          viewBox="0 0 64 64"
-          enable-background="new 0 0 64 64"
-          xml:space="preserve"
-        >
-          <g>
-            <path
-              fill="#ffffff"
-              d="M32,48c7.732,0,14-6.268,14-14v-3h-7c-0.553,0-1-0.447-1-1s0.447-1,1-1h7v-4h-7c-0.553,0-1-0.447-1-1
-         s0.447-1,1-1h7v-4h-7c-0.553,0-1-0.447-1-1s0.447-1,1-1h7v-3c0-7.732-6.268-14-14-14S18,6.268,18,14v3h7c0.553,0,1,0.447,1,1
-         s-0.447,1-1,1h-7v4h7c0.553,0,1,0.447,1,1s-0.447,1-1,1h-7v4h7c0.553,0,1,0.447,1,1s-0.447,1-1,1h-7v3C18,41.732,24.268,48,32,48z"
-            />
-            <path
-              fill="#ffffff"
-              d="M51,31.002c-1.657,0-2.999,1.343-3,3C47.999,42.838,40.837,50,32,50s-15.999-7.162-16-15.998
-         c0-1.657-1.343-3-3-3s-3,1.343-3,3c0,10.429,7.26,19.156,17,21.422V60c0,2.209,1.791,4,4,4h2c2.209,0,4-1.791,4-4v-4.576
-         c9.74-2.266,17-10.993,17-21.422C53.999,32.345,52.657,31.002,51,31.002z M37,53.346c-0.654,0.168-1.321,0.304-2,0.406v1.247v0.794
-         V60c0,1.104-0.896,2-2,2h-2c-1.104,0-2-0.896-2-2v-4.207v-0.794v-1.247c-0.679-0.103-1.346-0.238-2-0.406
-         c-8.621-2.224-15-10.029-15-19.344c0-0.554,0.447-1,1-1s1,0.446,1,1C14.001,43.941,22.059,52,32,52s17.999-8.059,18-17.998
-         c0.001-0.552,0.447-1,1-1s0.999,0.448,1,1C52,43.316,45.621,51.122,37,53.346z"
-            />
-          </g>
-        </svg>
+        </div>
+
+        <div class="space-y-4">
+          <div class="w-12 h-12 border border-ink-300 flex items-center justify-center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+              <rect x="3" y="6" width="18" height="12" rx="1"/>
+              <path d="M7 10v4M11 8v8M15 10v4M19 12v0" stroke-linecap="round"/>
+            </svg>
           </div>
-          <h4 class="text-lg text-blue-600 font-semibold" i18n>
-            Mixing/Recording
-          </h4>
-          <p i18n>
-            Quality services in hip-hop/rap music recording and/or mixing in our
-            studios in Haute-Savoie, France.
+          <h3 class="font-display text-xl font-semibold" i18n="@@services.overview.production.title">Beatmaking</h3>
+          <p class="text-sm text-ink-500 leading-relaxed" i18n="@@services.overview.production.body">
+            Réseau de beatmakers, promotion des prods et vente via Beatstars.
           </p>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
+        </div>
 
-<!-- Live Shows Section -->
-<section class="py-14">
-  <div class="max-w-screen-xl mx-auto md:px-8">
-    <div class="grid gap-8 sm:px-4 md:px-0 lg:grid-cols-2 items-center">
-      <div
-        class="service-image relative rounded-lg overflow-hidden bg-no-repeat bg-center"
-      >
-        <div class="aspect-w-16 aspect-h-9">
-          <img
-            src="/images/stage/hero.jpg"
-            class="w-full h-full object-cover"
-            alt="VCG Live Shows"
-            i18n-alt="VCG Live Shows"
-          />
+        <div class="space-y-4">
+          <div class="w-12 h-12 border border-ink-300 flex items-center justify-center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25">
+              <rect x="9" y="3" width="6" height="12" rx="3"/>
+              <path d="M5 11a7 7 0 0014 0M12 18v3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-semibold" i18n="@@services.overview.studio.title">Studio</h3>
+          <p class="text-sm text-ink-500 leading-relaxed" i18n="@@services.overview.studio.body">
+            Sessions d'enregistrement et de mixage hip-hop/rap dans nos studios.
+          </p>
         </div>
       </div>
-
-      <div class="max-w-xl px-4 space-y-3 sm:px-0 lg:max-w-2xl">
-        <h3 class="text-blue-600 font-semibold" i18n>🎤 VCG On Stage</h3>
-        <p class="text-white text-3xl font-semibold sm:text-4xl" i18n>
-          Live Performances
-        </p>
-        <p class="mt-3 text-gray-300" i18n>
-          Bring the energy of VCG to your venue or festival. We offer complete performance packages 
-          including our talented artists (Kitsui, Køni, Loupa), professional DJs (Gary, Baptiste), 
-          and full production support from our dedicated collective. From intimate venues to major 
-          festivals, we deliver unforgettable live experiences that showcase the VCG energy.
-        </p>
-        <a
-          routerLink="/stage"
-          class="inline-flex gap-x-1 items-center text-blue-600 hover:text-indigo-500 duration-150 font-medium"
-          i18n
-        >
-          Discover our stage team!
-        </a>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-14">
-  <div class="max-w-screen-xl mx-auto md:px-8">
-    <div class="grid gap-8 sm:px-4 md:px-0 lg:grid-cols-2 items-center">
-      <div
-        class="service-image relative rounded-lg overflow-hidden bg-no-repeat bg-center"
-      >
-        <div class="aspect-w-16 aspect-h-9">
-          <img
-            src="/images/services/distribution.png"
-            class="w-full h-full object-cover"
-            alt="Music Distribution"
-            i18n-alt="Music Distribution"
-          />
+  <!-- Detailed sections -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div class="relative overflow-hidden aspect-[4/3] bg-ink-100">
+          <img loading="lazy" src="/images/stage/hero.jpg" alt="VCG on Stage" class="absolute inset-0 w-full h-full object-cover" />
+        </div>
+        <div class="space-y-6">
+          <p class="eyebrow" i18n="@@services.live.eyebrow">01 · VCG on Stage</p>
+          <h2 class="font-display text-display-sm font-semibold" i18n="@@services.live.title">Performances live.</h2>
+          <p class="text-ink-600 leading-relaxed" i18n="@@services.live.body">
+            Packages complets pour festivals et salles : artistes (Kitsui, Køni, Loupa), DJs (Gary, Djoolias), et toute la technique. Des clubs intimes aux grandes scènes, on vient livrer l'énergie du collectif.
+          </p>
+          <a routerLink="/stage" class="btn-link" i18n="@@services.live.cta">
+            Voir la scène
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m0 0L7 3m4 4L7 11" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
         </div>
       </div>
-
-      <div class="max-w-xl px-4 space-y-3 sm:px-0 lg:max-w-2xl">
-        <h3 class="text-blue-600 font-semibold" i18n>📤 VCG Distribution</h3>
-        <p class="text-white text-3xl font-semibold sm:text-4xl" i18n>
-          Music Distribution Services
-        </p>
-        <p class="mt-3 text-gray-300" i18n>
-          We help emerging artists distribute their music on all major streaming
-          and download platforms. We offer two flexible options: a pay-as-you-go
-          plan, where artists pay a flat fee per single or project (up to 12
-          releases per year), or an unlimited monthly subscription allowing
-          unlimited releases. Subscription artists become part of the VCG family
-          and are showcased on our website.
-        </p>
-        <a
-          routerLink="/getintouch"
-          class="inline-flex gap-x-1 items-center text-blue-600 hover:text-indigo-500 duration-150 font-medium"
-          i18n
-        >
-          Get your music distributed!
-        </a>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-14">
-  <div class="max-w-screen-xl mx-auto md:px-8">
-    <div class="grid gap-8 sm:px-4 md:px-0 lg:grid-cols-2 items-center">
-      <div
-        class="service-image relative rounded-lg overflow-hidden bg-no-repeat bg-center"
-      >
-        <div class="aspect-w-16 aspect-h-9">
-          <img
-            src="/images/services/production.png"
-            class="w-full h-full object-cover"
-            alt="Beatmaking Services"
-            i18n-alt="Beatmaking Services"
-          />
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div class="space-y-6 lg:order-2">
+          <p class="eyebrow" i18n="@@services.distribution.eyebrow">02 · VCG Distribution</p>
+          <h2 class="font-display text-display-sm font-semibold" i18n="@@services.distribution.title">Distribution musicale.</h2>
+          <p class="text-ink-600 leading-relaxed" i18n="@@services.distribution.body">
+            Deux formules : paiement à la sortie (single ou projet, jusqu'à 12 sorties par an) ou abonnement mensuel illimité. Les artistes en abonnement font partie de la famille VCG et sont mis en avant sur le site.
+          </p>
+          <a routerLink="/contact" class="btn-link" i18n="@@services.distribution.cta">
+            Distribuer votre musique
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m0 0L7 3m4 4L7 11" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+        <div class="relative overflow-hidden aspect-[4/3] bg-ink-100 lg:order-1">
+          <img loading="lazy" src="/images/services/distribution.png" alt="Distribution musicale" class="absolute inset-0 w-full h-full object-cover" />
         </div>
       </div>
-
-      <div class="max-w-xl px-4 space-y-3 sm:px-0 lg:max-w-2xl">
-        <h3 class="text-blue-600 font-semibold" i18n>🎹 VCG Production</h3>
-        <p class="text-white text-3xl font-semibold sm:text-4xl" i18n>
-          Beatmaker Team
-        </p>
-        <p class="mt-3 text-gray-300" i18n>
-          Beatmakers can distribute their work through our network, on platforms
-          like BeatStars, and also on our YouTube channel, at no cost. Join our
-          growing community and have your profile showcased on the VCG website.
-          It is also an opportunity to connect to our artists and producers
-          network. Our goal is to federate a strong community of beatmakers.
-        </p>
-        <a
-          routerLink="/getintouch"
-          class="inline-flex gap-x-1 items-center text-blue-600 hover:text-indigo-500 duration-150 font-medium"
-          i18n
-        >
-          Join our beatmakers!
-        </a>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-14">
-  <div class="max-w-screen-xl mx-auto md:px-8">
-    <div class="grid gap-8 sm:px-4 md:px-0 lg:grid-cols-2 items-center">
-      <div
-        class="service-image relative rounded-lg overflow-hidden bg-no-repeat bg-center"
-      >
-        <div class="aspect-w-16 aspect-h-9">
-          <img
-            src="/images/services/studio.png"
-            class="w-full h-full object-cover"
-            alt="Studio Services"
-            i18n-alt="Studio Services"
-          />
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div class="relative overflow-hidden aspect-[4/3] bg-ink-100">
+          <img loading="lazy" src="/images/services/production.png" alt="VCG Production" class="absolute inset-0 w-full h-full object-cover" />
+        </div>
+        <div class="space-y-6">
+          <p class="eyebrow" i18n="@@services.production.eyebrow">03 · VCG Production</p>
+          <h2 class="font-display text-display-sm font-semibold" i18n="@@services.production.title">Réseau de beatmakers.</h2>
+          <p class="text-ink-600 leading-relaxed" i18n="@@services.production.body">
+            Les beatmakers distribuent leurs prods via notre réseau, sur Beatstars, sans frais. Profil mis en avant sur le site VCG, connexion à notre réseau d'artistes et producteurs. Objectif : fédérer une vraie communauté.
+          </p>
+          <a routerLink="/contact" class="btn-link" i18n="@@services.production.cta">
+            Rejoindre les beatmakers
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m0 0L7 3m4 4L7 11" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="max-w-xl px-4 space-y-3 sm:px-0 lg:max-w-2xl">
-        <h3 class="text-blue-600 font-semibold" i18n>🎙 VCG Studio</h3>
-        <p class="text-white text-3xl font-semibold sm:text-4xl" i18n>
-          Mixing and Recording Services
-        </p>
-        <p class="mt-3 text-gray-300" i18n>
-          We offer quality recording and mixing services specializing in
-          hip-hop/rap music, with plans to expand to other genres. Based in
-          Haute-Savoie, France, we operate amateur studios. Artists can utilize
-          our services independently or combine them with distribution for
-          maximum reach. We plan to invest in a professional studio in the
-          future.
-        </p>
-        <a
-          routerLink="/getintouch"
-          class="inline-flex gap-x-1 items-center text-blue-600 hover:text-indigo-500 duration-150 font-medium"
-          i18n
-        >
-          Book a studio session!
-        </a>
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div class="space-y-6 lg:order-2">
+          <p class="eyebrow" i18n="@@services.studio.eyebrow">04 · VCG Studio</p>
+          <h2 class="font-display text-display-sm font-semibold" i18n="@@services.studio.title">Mixage &amp; enregistrement.</h2>
+          <p class="text-ink-600 leading-relaxed" i18n="@@services.studio.body">
+            Studio dédié au hip-hop/rap avec ouverture progressive vers d'autres styles. Des formules à la prestation, combinables avec la distribution pour une couverture complète. Évolution vers un studio pro prévue.
+          </p>
+          <a routerLink="/contact" class="btn-link" i18n="@@services.studio.cta">
+            Réserver une session
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m0 0L7 3m4 4L7 11" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+        <div class="relative overflow-hidden aspect-[4/3] bg-ink-100 lg:order-1">
+          <img loading="lazy" src="/images/services/studio.png" alt="Studio VCG" class="absolute inset-0 w-full h-full object-cover" />
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-24 sm:py-32 text-center">
+      <p class="eyebrow mb-6" i18n="@@services.cta.eyebrow">Parlons-en</p>
+      <h2 class="font-display text-display-md font-semibold text-balance max-w-3xl mx-auto mb-12" i18n="@@services.cta.title">
+        Une idée, un projet, une question ?
+      </h2>
+      <a routerLink="/contact" class="btn-primary btn-lg" i18n="@@services.cta.button">Nous contacter</a>
+    </div>
+  </section>
+</main>

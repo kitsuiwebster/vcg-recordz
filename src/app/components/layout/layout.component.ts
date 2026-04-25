@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Inject, LOCALE_ID, PLATFORM_ID } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -6,43 +7,48 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss'],
-  imports: [RouterModule]
+  imports: [CommonModule, RouterModule]
 })
 export class LayoutComponent {
   isMenuOpen = false;
+
+  constructor(
+    @Inject(LOCALE_ID) private locale: string,
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
 
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
   }
 
-  getCurrentLanguageFlag(): string {
-    const currentUrl = window.location.href;
-    const url = new URL(currentUrl);
-    const pathSegments = url.pathname.split('/');
-    
-    // Determine current language
-    const currentLanguage = pathSegments[1] === 'fr' ? 'fr' : 'en';
-    
-    // Return the flag of the OTHER language (the one to switch to)
-    return currentLanguage === 'en' ? '🇫🇷' : '🇬🇧';
+  private currentLanguage(): 'fr' | 'en' {
+    if (isPlatformBrowser(this.platformId)) {
+      const pathSegments = window.location.pathname.split('/');
+      return pathSegments[1] === 'en' ? 'en' : 'fr';
+    }
+    return this.locale.startsWith('en') ? 'en' : 'fr';
+  }
+
+  isFrench(): boolean {
+    return this.currentLanguage() === 'fr';
   }
 
   switchLanguage(): void {
-    const currentUrl = window.location.href;
-    const url = new URL(currentUrl);
+    if (!isPlatformBrowser(this.platformId)) return;
+
+    const url = new URL(window.location.href);
     const pathSegments = url.pathname.split('/');
+    const current = pathSegments[1] === 'en' ? 'en' : 'fr';
+    const next = current === 'fr' ? 'en' : 'fr';
 
-    // Determine current language
-    const currentLanguage = pathSegments[1] === 'fr' ? 'fr' : 'en';
+    if (pathSegments[1] === 'fr' || pathSegments[1] === 'en') {
+      pathSegments.splice(1, 1);
+    }
+    if (next === 'en') {
+      pathSegments.splice(1, 0, 'en');
+    }
 
-    // Determine new language
-    const newLanguage = currentLanguage === 'en' ? 'fr' : 'en';
-
-    // Replace the language in the URL
-    pathSegments[1] = newLanguage;
-
-    // Update the pathname and reload the page
-    url.pathname = pathSegments.join('/');
+    url.pathname = pathSegments.join('/') || '/';
     window.location.href = url.toString();
   }
 }

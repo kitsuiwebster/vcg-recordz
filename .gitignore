@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Playwright session data
+.playwright-mcp/
+
+# Old i18n backups
+src/locale/*.bak
+src/locale/*.legacy

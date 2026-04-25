@@ -1,133 +1,186 @@
-<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-  <div
-    class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
-    aria-hidden="true"
-  >
-    <div
-      class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
-      style="
-        clip-path: polygon(
-          74.1% 44.1%,
-          100% 61.6%,
-          97.5% 26.9%,
-          85.5% 0.1%,
-          80.7% 2%,
-          72.5% 32.5%,
-          60.2% 62.4%,
-          52.4% 68.1%,
-          47.5% 58.3%,
-          45.2% 34.5%,
-          27.5% 76.7%,
-          0.1% 64.9%,
-          17.9% 100%,
-          27.6% 76.8%,
-          76.1% 97.7%,
-          74.1% 44.1%
-        );
-      "
-    ></div>
-  </div>
-  <div
-    class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
-    aria-hidden="true"
-  >
-    <div
-      class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
-      style="
-        clip-path: polygon(
-          74.1% 44.1%,
-          100% 61.6%,
-          97.5% 26.9%,
-          85.5% 0.1%,
-          80.7% 2%,
-          72.5% 32.5%,
-          60.2% 62.4%,
-          52.4% 68.1%,
-          47.5% 58.3%,
-          45.2% 34.5%,
-          27.5% 76.7%,
-          0.1% 64.9%,
-          17.9% 100%,
-          27.6% 76.8%,
-          76.1% 97.7%,
-          74.1% 44.1%
-        );
-      "
-    ></div>
-  </div>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="flex flex-col sm:flex-col sm:items-center md:flex-row lg:flex-row xl:flex-row">
+<main class="w-full bg-ink-0 text-ink-900">
+  <!-- HERO -->
+  <section class="relative border-b border-ink-200 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 pt-12 sm:pt-16 pb-16 sm:pb-24">
+      <div class="flex items-center justify-between mb-8 sm:mb-12">
+        <p class="meta" i18n="@@home.hero.meta.est">Est. 2024 · Valleiry</p>
+        <img src="/logo.png" alt="VCG Recordz" class="w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 object-contain" />
+      </div>
 
-      <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2
-          class="text-5xl font-semibold tracking-tight text-white sm:text-7xl"
-          i18n="@@work_with_us"
-        >
-          Work with us!
-        </h2>
-        <p
-          class="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8"
-          i18n="@@description"
-        >
-          We distribute beatmakers' beats, release singles and albums, 
-          provide professional recording and voice mixing services, and deliver 
-          unforgettable live performances. Our team is dedicated to ensuring your 
-          music reaches its full potential, offering support every step of the way 
-          from creation to distribution and stage performance.
+      <h1 class="font-display font-bold text-display-lg text-balance" i18n="@@home.hero.title">
+        VCG<br />RECORDZ<span class="text-ink-400">.</span>
+      </h1>
+
+      <div class="mt-12 sm:mt-16 grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-10 items-end">
+        <p class="md:col-span-6 md:col-start-7 text-lg sm:text-xl text-ink-600 leading-relaxed" i18n="@@home.hero.lead">
+          Label musical indépendant. Nous distribuons des artistes, produisons des beats, mixons en studio et programmons des lives, de la création jusqu'à la scène.
         </p>
       </div>
-      <img src="/logo.png" alt="VCG Recordz" class="w-48 h-48" />
+
+      <div class="mt-12 sm:mt-20 flex flex-wrap gap-4">
+        <a routerLink="/artists" class="btn-primary btn-lg" i18n="@@home.hero.cta.primary">Découvrir les artistes</a>
+        <a routerLink="/contact" class="btn-ghost btn-lg" i18n="@@home.hero.cta.secondary">Travailler avec nous</a>
+      </div>
     </div>
-    <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-      <div
-        class="grid grid-cols-2 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10"
-      >
-        <a routerLink="/artists" i18n="@@discover_artists">
-          Discover Artists <span aria-hidden="true">&rarr;</span>
-        </a>
-        <a routerLink="/getintouch" i18n="@@meet_our_team">
-          Meet our Team <span aria-hidden="true">&rarr;</span>
-        </a>
-        <a routerLink="/services" i18n="@@our_services">
-          Our services <span aria-hidden="true">&rarr;</span>
-        </a>
-        <a routerLink="/team" i18n="@@discover_beatmakers">
-          Discover Beatmakers <span aria-hidden="true">&rarr;</span>
-        </a>
-        <a routerLink="/stage" i18n="@@vcg_on_stage">
-          VCG on Stage <span aria-hidden="true">&rarr;</span>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 mb-16">
+        <div class="md:col-span-4">
+          <p class="eyebrow mb-4" i18n="@@home.what.eyebrow">Ce que nous faisons</p>
+        </div>
+        <div class="md:col-span-8">
+          <h2 class="font-display text-display-sm font-semibold text-balance" i18n="@@home.what.title">
+            Quatre métiers, une même exigence.
+          </h2>
+        </div>
+      </div>
+
+      <ul class="border-t border-ink-200">
+        <li class="group border-b border-ink-200 py-8 sm:py-10">
+          <a routerLink="/services" class="grid grid-cols-12 gap-4 items-center transition-colors">
+            <span class="meta col-span-12 sm:col-span-1">01</span>
+            <h3 class="col-span-12 sm:col-span-4 font-display text-2xl sm:text-3xl font-semibold" i18n="@@home.what.distribution.title">Distribution</h3>
+            <p class="col-span-12 sm:col-span-6 text-ink-500" i18n="@@home.what.distribution.body">
+              Sortie sur Spotify, Apple Music, Deezer, YouTube Music et toutes les plateformes majeures.
+            </p>
+            <span class="col-span-12 sm:col-span-1 text-right transition-transform group-hover:translate-x-1">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="1.25"/></svg>
+            </span>
+          </a>
+        </li>
+        <li class="group border-b border-ink-200 py-8 sm:py-10">
+          <a routerLink="/services" class="grid grid-cols-12 gap-4 items-center transition-colors">
+            <span class="meta col-span-12 sm:col-span-1">02</span>
+            <h3 class="col-span-12 sm:col-span-4 font-display text-2xl sm:text-3xl font-semibold" i18n="@@home.what.production.title">Production</h3>
+            <p class="col-span-12 sm:col-span-6 text-ink-500" i18n="@@home.what.production.body">
+              Beatmaking original avec VCG Production, plusieurs producteurs sur des esthétiques variées.
+            </p>
+            <span class="col-span-12 sm:col-span-1 text-right transition-transform group-hover:translate-x-1">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="1.25"/></svg>
+            </span>
+          </a>
+        </li>
+        <li class="group border-b border-ink-200 py-8 sm:py-10">
+          <a routerLink="/services" class="grid grid-cols-12 gap-4 items-center transition-colors">
+            <span class="meta col-span-12 sm:col-span-1">03</span>
+            <h3 class="col-span-12 sm:col-span-4 font-display text-2xl sm:text-3xl font-semibold" i18n="@@home.what.studio.title">Studio</h3>
+            <p class="col-span-12 sm:col-span-6 text-ink-500" i18n="@@home.what.studio.body">
+              Enregistrement et mixage professionnels pour vos projets, du single à l'album complet.
+            </p>
+            <span class="col-span-12 sm:col-span-1 text-right transition-transform group-hover:translate-x-1">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="1.25"/></svg>
+            </span>
+          </a>
+        </li>
+        <li class="group py-8 sm:py-10">
+          <a routerLink="/stage" class="grid grid-cols-12 gap-4 items-center transition-colors">
+            <span class="meta col-span-12 sm:col-span-1">04</span>
+            <h3 class="col-span-12 sm:col-span-4 font-display text-2xl sm:text-3xl font-semibold" i18n="@@home.what.live.title">Live</h3>
+            <p class="col-span-12 sm:col-span-6 text-ink-500" i18n="@@home.what.live.body">
+              Booking des artistes et DJ sets en France et en Europe. VCG on Stage, sur les plus belles scènes.
+            </p>
+            <span class="col-span-12 sm:col-span-1 text-right transition-transform group-hover:translate-x-1">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="1.25"/></svg>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FEATURED ARTISTS -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <div class="flex items-end justify-between mb-16">
+        <div>
+          <p class="eyebrow mb-4" i18n="@@home.featured.eyebrow">En vedette</p>
+          <h2 class="font-display text-display-sm font-semibold" i18n="@@home.featured.title">Nos artistes.</h2>
+        </div>
+        <a routerLink="/artists" class="btn-link hidden sm:inline-flex" i18n="@@home.featured.cta">
+          Voir tous les artistes
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m0 0L7 3m4 4L7 11" stroke="currentColor" stroke-width="1.5"/></svg>
         </a>
       </div>
-      <dl
-        class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4"
-      >
-        <div class="flex flex-col-reverse gap-1">
-          <dt class="text-base/7 text-gray-300" i18n="@@songs_recorded">
-            Songs recorded
-          </dt>
-          <dd class="text-4xl font-semibold tracking-tight text-white">160+</dd>
-        </div>
-        <div class="flex flex-col-reverse gap-1">
-          <dt class="text-base/7 text-gray-300" i18n="@@projects_distributed">
-            Projects Distributed
-          </dt>
-          <dd class="text-4xl font-semibold tracking-tight text-white">35</dd>
-        </div>
-        <div class="flex flex-col-reverse gap-1">
-          <dt class="text-base/7 text-gray-300" i18n="@@collaborations">
-            Collaborations
-          </dt>
-          <dd class="text-4xl font-semibold tracking-tight text-white">12</dd>
-        </div>
-        <div class="flex flex-col-reverse gap-1">
-          <dt class="text-base/7 text-gray-300" i18n="@@seniority">
-            Seniority
-          </dt>
-          <dd class="text-4xl font-semibold tracking-tight text-white"  i18n="@@seniority-metric">
-            1 year
-          </dd>
-        </div>
-      </dl>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10">
+        <a routerLink="/artists" class="group block">
+          <div class="relative overflow-hidden aspect-[16/10] bg-ink-100">
+            <img loading="lazy" src="/images/artists/kitsuikoni.png" alt="Kitsui & Køni" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105" />
+          </div>
+          <div class="pt-6 flex items-center justify-between">
+            <div>
+              <p class="meta mb-1" i18n="@@home.featured.kitsuikoni.meta">Rap · Duo</p>
+              <h3 class="font-display text-2xl font-semibold">Kitsui &amp; Køni</h3>
+            </div>
+            <span class="transition-transform group-hover:translate-x-1">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-5-5m5 5l-5 5" stroke="currentColor" stroke-width="1.25"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <a routerLink="/artists" class="group block">
+          <div class="relative overflow-hidden aspect-[16/10] bg-ink-100">
+            <img loading="lazy" src="/images/artists/madpoof.png" alt="MADPOOF" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-editorial group-hover:scale-105" />
+          </div>
+          <div class="pt-6 flex items-center justify-between">
+            <div>
+              <p class="meta mb-1" i18n="@@home.featured.madpoof.meta">Trap · Breakcore</p>
+              <h3 class="font-display text-2xl font-semibold">MADPOOF</h3>
+            </div>
+            <span class="transition-transform group-hover:translate-x-1">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-5-5m5 5l-5 5" stroke="currentColor" stroke-width="1.25"/></svg>
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <div class="mt-10 sm:hidden">
+        <a routerLink="/artists" class="btn-link" i18n="@@home.featured.cta">
+          Voir tous les artistes
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m0 0L7 3m4 4L7 11" stroke="currentColor" stroke-width="1.5"/></svg>
+        </a>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
+
+  <!-- STATS -->
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-28">
+      <p class="eyebrow mb-4" i18n="@@home.stats.eyebrow">En chiffres</p>
+      <h2 class="font-display text-display-sm font-semibold mb-16" i18n="@@home.stats.title">Depuis 2024.</h2>
+
+      <div class="grid grid-cols-2 lg:grid-cols-4 border-t border-ink-200">
+        <div class="border-b lg:border-b-0 border-ink-200 lg:border-r py-10 px-0 sm:px-6">
+          <p class="font-display text-display-md font-semibold leading-none">160<span class="text-ink-400">+</span></p>
+          <p class="meta mt-4" i18n="@@home.stats.songs">Morceaux enregistrés</p>
+        </div>
+        <div class="border-b lg:border-b-0 border-ink-200 lg:border-r py-10 px-0 sm:px-6">
+          <p class="font-display text-display-md font-semibold leading-none">35</p>
+          <p class="meta mt-4" i18n="@@home.stats.projects">Projets distribués</p>
+        </div>
+        <div class="border-ink-200 lg:border-r py-10 px-0 sm:px-6">
+          <p class="font-display text-display-md font-semibold leading-none">12</p>
+          <p class="meta mt-4" i18n="@@home.stats.collabs">Collaborations</p>
+        </div>
+        <div class="py-10 px-0 sm:px-6">
+          <p class="font-display text-display-md font-semibold leading-none">02</p>
+          <p class="meta mt-4" i18n="@@home.stats.seniority">Ans de label structuré</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-24 sm:py-32 text-center">
+      <p class="eyebrow mb-6" i18n="@@home.cta.eyebrow">Démarrons quelque chose</p>
+      <h2 class="font-display text-display-md font-semibold text-balance max-w-3xl mx-auto mb-12" i18n="@@home.cta.title">
+        Un projet ? Une idée ? Parlons-en.
+      </h2>
+      <a routerLink="/contact" class="btn-primary btn-lg" i18n="@@home.cta.button">Nous contacter</a>
+    </div>
+  </section>
+</main>

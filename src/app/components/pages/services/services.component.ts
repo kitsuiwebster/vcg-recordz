@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { SeoService } from '../../../services/seo.service';
 
 @Component({
   selector: 'app-services',
@@ -8,4 +9,14 @@ import { RouterLink } from '@angular/router';
   templateUrl: './services.component.html',
   styleUrls: ['./services.component.scss']
 })
-export class ServicesComponent {}
+export class ServicesComponent implements OnInit {
+  constructor(private seo: SeoService) {}
+
+  ngOnInit(): void {
+    this.seo.update({
+      title: $localize`:@@seo.services.title:Services`,
+      description: $localize`:@@seo.services.description:VCG Recordz services · live booking, music distribution, beatmaking and studio sessions for mixing and recording.`,
+      path: '/services'
+    });
+  }
+}
