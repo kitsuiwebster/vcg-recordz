@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://vcgrecordz.eu/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vcgrecordz.eu/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/artists</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/artists"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/artists"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/team</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/team"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/team"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/stage</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/stage"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/stage"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/services</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/services"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/contact</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/contact"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/about</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/about"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/licensing</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/licensing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/licensing"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/privacy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/terms</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/terms"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://vcgrecordz.eu/cookies</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vcgrecordz.eu/cookies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vcgrecordz.eu/en/cookies"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
