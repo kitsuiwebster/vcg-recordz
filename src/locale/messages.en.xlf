@@ -99,7 +99,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="footer.tagline" datatype="html">
-        <source>Independent French music label. Founded in 2024 in Valleiry.</source>
+        <source>Independent European music label. Founded in 2024 in Valleiry.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/layout/layout.component.html</context>
           <context context-type="linenumber">63,65</context>
@@ -1246,14 +1246,14 @@ RECORDZ.</source>
         </context-group>
       </trans-unit>
       <trans-unit id="seo.home.title" datatype="html">
-        <source>Independent French Music Label</source>
+        <source>Independent European Music Label</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.ts</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="seo.home.description" datatype="html">
-        <source>VCG Recordz is an independent French music label based in Valleiry — rap, trap, breakcore, drum &amp; bass. Distribution, beatmaking, mixing, live booking.</source>
+        <source>VCG Recordz is an independent European music label based in Valleiry — rap, trap, breakcore, drum &amp; bass. Distribution, beatmaking, mixing, live booking.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/pages/home/home.component.ts</context>
           <context context-type="linenumber">18</context>

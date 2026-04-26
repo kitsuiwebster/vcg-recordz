@@ -30,6 +30,16 @@ for f in .htaccess robots.txt sitemap.xml favicon.ico; do
   fi
 done
 
+echo "→ Fixing <base href> in all index.html files..."
+# FR pages at root → base href="/"
+find "$DEPLOY_DIR" -name "index.html" -not -path "*/en/*" \
+  -exec sed -i 's|<base href="[^"]*"[[:space:]]*/*>|<base href="/">|g' {} \;
+# EN pages under /en/ → base href="/en/"
+if [ -d "$DEPLOY_DIR/en" ]; then
+  find "$DEPLOY_DIR/en" -name "index.html" \
+    -exec sed -i 's|<base href="[^"]*"[[:space:]]*/*>|<base href="/en/">|g' {} \;
+fi
+
 echo ""
 echo "✅ Deploy ready: $DEPLOY_DIR"
 echo "   Upload its content to public_html/ on Hostinger."

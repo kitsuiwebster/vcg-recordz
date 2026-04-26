@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.home.title:Label Musical Indépendant Français`,
+      title: $localize`:@@seo.home.title:Label Musical Indépendant Européen`,
       description: $localize`:@@seo.home.description:VCG Recordz est un label musical indépendant basé à Valleiry · rap, trap, breakcore, drum & bass. Distribution, beatmaking, mixage, booking live.`,
       path: '/',
       type: 'music.group'
