@@ -1,0 +1,74 @@
+<main class="w-full bg-ink-0 text-ink-900">
+  <section class="border-b border-ink-200">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-20 sm:py-24">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+        <div class="md:col-span-7">
+          <p class="eyebrow mb-4">Galerie</p>
+          <h1 class="font-display text-display-md font-semibold text-balance">
+            Toutes les photos.
+          </h1>
+        </div>
+        <div class="md:col-span-5">
+          <p class="text-ink-600 leading-relaxed">
+            Une sélection de moments capturés autour du collectif VCG.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 py-12 sm:py-16">
+      <div *ngIf="photos.length === 0" class="text-ink-500 text-center py-20">
+        Aucune photo disponible.
+      </div>
+
+      <div #grid class="gallery-grid" [class.is-ready]="ready">
+        <div *ngFor="let row of rows" class="gallery-row" [style.height.px]="row.height">
+          <figure
+            *ngFor="let item of row.items"
+            class="gallery-item group relative cursor-pointer overflow-hidden bg-ink-100"
+            [style.width.px]="item.width"
+            [style.height.px]="item.height"
+            (click)="open(item.globalIndex)"
+          >
+            <img
+              [src]="item.photo.src"
+              [alt]="item.photo.eventTitle"
+              loading="lazy"
+              class="w-full h-full object-cover block transition-transform duration-700 ease-editorial group-hover:scale-[1.03]"
+            />
+
+            <figcaption
+              class="hidden lg:flex absolute inset-0 flex-col justify-end p-3 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+            >
+              <div class="flex items-end justify-between gap-2">
+                <p class="text-[0.6875rem] font-mono tracking-wide text-white/90 leading-snug min-w-0 truncate">
+                  par<ng-container *ngFor="let h of item.photo.photographers; let last = last"
+                    >&nbsp;&#64;{{ h }}<span *ngIf="!last"> · </span></ng-container
+                  >
+                </p>
+                <button
+                  type="button"
+                  class="gallery-download-btn shrink-0"
+                  (click)="download($event, item.photo)"
+                  aria-label="Télécharger"
+                >
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M8 2v9m0 0l-3-3m3 3l3-3M3 13h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </button>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <app-lightbox
+    [photos]="photos"
+    [(open)]="lightboxOpen"
+    [(index)]="selectedIndex"
+  ></app-lightbox>
+</main>

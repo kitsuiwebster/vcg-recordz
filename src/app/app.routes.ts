@@ -8,6 +8,7 @@ import { TeamComponent } from './components/pages/team/team.component';
 import { ServicesComponent } from './components/pages/services/services.component';
 import { ArtistsComponent } from './components/pages/artists/artists.component';
 import { StageComponent } from './components/pages/stage/stage.component';
+import { GalleryComponent } from './components/pages/gallery/gallery.component';
 import { PrivacyComponent } from './components/pages/privacy/privacy.component';
 import { TermsComponent } from './components/pages/terms/terms.component';
 import { LicensingComponent } from './components/pages/licensing/licensing.component';
@@ -21,6 +22,7 @@ export const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'artists', component: ArtistsComponent },
   { path: 'stage', component: StageComponent },
+  { path: 'gallery', component: GalleryComponent },
   { path: 'getintouch', redirectTo: 'contact', pathMatch: 'full' },
   { path: 'privacy', component: PrivacyComponent },
   { path: 'terms', component: TermsComponent },

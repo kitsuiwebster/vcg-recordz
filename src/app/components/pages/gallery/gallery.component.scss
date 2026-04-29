@@ -1,0 +1,50 @@
+:host {
+  display: block;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+
+  &.is-ready {
+    opacity: 1;
+  }
+}
+
+.gallery-row {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  width: 100%;
+}
+
+.gallery-item {
+  flex-shrink: 0;
+  flex-grow: 0;
+  position: relative;
+
+  img {
+    will-change: transform;
+  }
+}
+
+.gallery-download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+}
