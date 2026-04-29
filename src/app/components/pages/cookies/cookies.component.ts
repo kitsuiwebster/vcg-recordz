@@ -13,8 +13,8 @@ export class CookiesComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.cookies.title:Cookie Policy`,
-      description: $localize`:@@seo.cookies.description:How VCG Recordz uses cookies · essential only, no tracking, no advertising.`,
+      title: 'Politique cookies',
+      description: 'Comment VCG Recordz utilise les cookies · essentiels uniquement, sans tracking ni publicité.',
       path: '/cookies'
     });
   }

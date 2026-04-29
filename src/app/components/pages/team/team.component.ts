@@ -14,8 +14,8 @@ export class TeamComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.team.title:Our Team`,
-      description: $localize`:@@seo.team.description:The VCG Recordz team · Kitsui, Biggy, Køni · and the VCG Production beatmakers: Oddgyes, Shidozz, DMB, NVSDV, No$$if.`,
+      title: 'Notre équipe',
+      description: 'L\'équipe VCG Recordz · Kitsui, Biggy, Køni · et les beatmakers VCG Production : Oddgyes, Shidozz, DMB, NVSDV, No$$if.',
       path: '/team'
     });
   }

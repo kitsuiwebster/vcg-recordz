@@ -30,8 +30,8 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.contact.title:Contact`,
-      description: $localize`:@@seo.contact.description:Contactez VCG Recordz · email, téléphone, réseaux sociaux et formulaire de contact.`,
+      title: 'Contact',
+      description: 'Contactez VCG Recordz · email, téléphone, réseaux sociaux et formulaire de contact.',
       path: '/contact'
     });
   }
@@ -47,9 +47,9 @@ export class ContactComponent implements OnInit {
         this.isLoading = false;
         Swal.fire({
           icon: 'success',
-          title: $localize`:@@contact.form.success.title:Message envoyé`,
-          text: $localize`:@@contact.form.success.text:Merci, nous reviendrons vers vous rapidement.`,
-          confirmButtonText: $localize`:@@contact.form.success.cta:Retour à l'accueil`,
+          title: 'Message envoyé',
+          text: 'Merci, nous reviendrons vers vous rapidement.',
+          confirmButtonText: 'Retour à l\'accueil',
           background: '#0a0a0a',
           color: '#ffffff',
           confirmButtonColor: '#ffffff',
@@ -62,8 +62,8 @@ export class ContactComponent implements OnInit {
         this.isLoading = false;
         Swal.fire({
           icon: 'error',
-          title: $localize`:@@contact.form.error.title:Échec de l'envoi`,
-          text: $localize`:@@contact.form.error.text:Une erreur est survenue. Merci de réessayer.`,
+          title: 'Échec de l\'envoi',
+          text: 'Une erreur est survenue. Merci de réessayer.',
           background: '#0a0a0a',
           color: '#ffffff',
           confirmButtonColor: '#ffffff',

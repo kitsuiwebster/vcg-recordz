@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Build + flatten dual-locale Angular output for static hosting (Hostinger, Netlify, etc.)
-# After this script: dist/deploy/ contains FR at root, EN under /en/, ready to upload.
+# Build Angular output for static hosting (Hostinger, Netlify, etc.)
+# After this script: dist/deploy/ contains the FR site, ready to upload.
 
 set -e
 
@@ -8,7 +8,7 @@ ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
 BUILD_DIR="$ROOT_DIR/dist/vcg-website/browser"
 DEPLOY_DIR="$ROOT_DIR/dist/deploy"
 
-if [ ! -d "$BUILD_DIR/fr" ] || [ ! -d "$BUILD_DIR/en" ]; then
+if [ ! -d "$BUILD_DIR" ]; then
   echo "Error: Run 'yarn build' first." >&2
   exit 1
 fi
@@ -16,29 +16,12 @@ fi
 rm -rf "$DEPLOY_DIR"
 mkdir -p "$DEPLOY_DIR"
 
-echo "→ Copying FR build to root..."
-cp -r "$BUILD_DIR/fr/." "$DEPLOY_DIR/"
-
-echo "→ Copying EN build to /en/..."
-mkdir -p "$DEPLOY_DIR/en"
-cp -r "$BUILD_DIR/en/." "$DEPLOY_DIR/en/"
-
-echo "→ Copying root assets (.htaccess, robots.txt, sitemap.xml)..."
-for f in .htaccess robots.txt sitemap.xml favicon.ico; do
-  if [ -f "$BUILD_DIR/$f" ] && [ ! -f "$DEPLOY_DIR/$f" ]; then
-    cp "$BUILD_DIR/$f" "$DEPLOY_DIR/$f"
-  fi
-done
+echo "→ Copying build to deploy folder..."
+cp -r "$BUILD_DIR/." "$DEPLOY_DIR/"
 
 echo "→ Fixing <base href> in all index.html files..."
-# FR pages at root → base href="/"
-find "$DEPLOY_DIR" -name "index.html" -not -path "*/en/*" \
+find "$DEPLOY_DIR" -name "index.html" \
   -exec sed -i 's|<base href="[^"]*"[[:space:]]*/*>|<base href="/">|g' {} \;
-# EN pages under /en/ → base href="/en/"
-if [ -d "$DEPLOY_DIR/en" ]; then
-  find "$DEPLOY_DIR/en" -name "index.html" \
-    -exec sed -i 's|<base href="[^"]*"[[:space:]]*/*>|<base href="/en/">|g' {} \;
-fi
 
 echo ""
 echo "✅ Deploy ready: $DEPLOY_DIR"

@@ -13,8 +13,8 @@ export class PrivacyComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.privacy.title:Privacy Policy`,
-      description: $localize`:@@seo.privacy.description:How VCG Recordz collects, uses and protects your personal data under GDPR.`,
+      title: 'Politique de confidentialité',
+      description: 'Comment VCG Recordz collecte, utilise et protège vos données personnelles selon le RGPD.',
       path: '/privacy'
     });
   }

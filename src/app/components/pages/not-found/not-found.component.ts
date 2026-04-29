@@ -14,8 +14,8 @@ export class NotFoundComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.notfound.title:Page Not Found`,
-      description: $localize`:@@seo.notfound.description:This page does not exist. Return to the VCG Recordz homepage.`,
+      title: 'Page introuvable',
+      description: 'Cette page n\'existe pas. Retournez à l\'accueil VCG Recordz.',
       path: '/not-found'
     });
   }

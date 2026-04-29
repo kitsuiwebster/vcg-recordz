@@ -13,8 +13,8 @@ export class TermsComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.terms.title:Terms & Conditions`,
-      description: $localize`:@@seo.terms.description:Terms of use of the VCG Recordz website, intellectual property, liability and governing law.`,
+      title: 'Conditions d\'utilisation',
+      description: 'Conditions d\'utilisation du site VCG Recordz · propriété intellectuelle, responsabilité et droit applicable.',
       path: '/terms'
     });
   }

@@ -14,8 +14,8 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.about.title:Notre histoire`,
-      description: $localize`:@@seo.about.description:De la chambre d'ado au label structuré · l'histoire de VCG Recordz depuis 2024.`,
+      title: 'Notre histoire',
+      description: 'De la chambre d\'ado au label structuré · l\'histoire de VCG Recordz depuis 2024.',
       path: '/about'
     });
   }

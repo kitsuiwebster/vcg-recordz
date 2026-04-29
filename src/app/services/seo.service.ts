@@ -1,4 +1,4 @@
-import { Injectable, Inject, LOCALE_ID } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { DOCUMENT } from '@angular/common';
 
@@ -20,17 +20,13 @@ export class SeoService {
     private titleService: Title,
     private meta: Meta,
     @Inject(DOCUMENT) private doc: Document,
-    @Inject(LOCALE_ID) private locale: string
   ) {}
 
   update(config: SeoConfig): void {
     const fullTitle = `${config.title} | ${BRAND}`;
     const image = config.image ?? DEFAULT_IMAGE;
-    const isEn = this.locale.startsWith('en');
-    const localePrefix = isEn ? '/en' : '';
-    const url = `${SITE_URL}${localePrefix}${config.path ?? ''}`;
+    const url = `${SITE_URL}${config.path ?? ''}`;
     const type = config.type ?? 'website';
-    const lang = isEn ? 'en_US' : 'fr_FR';
 
     this.titleService.setTitle(fullTitle);
 
@@ -44,7 +40,7 @@ export class SeoService {
     this.setTag('property', 'og:url', url);
     this.setTag('property', 'og:type', type);
     this.setTag('property', 'og:site_name', BRAND);
-    this.setTag('property', 'og:locale', lang);
+    this.setTag('property', 'og:locale', 'fr_FR');
 
     this.setTag('name', 'twitter:card', 'summary_large_image');
     this.setTag('name', 'twitter:title', fullTitle);
@@ -52,24 +48,6 @@ export class SeoService {
     this.setTag('name', 'twitter:image', image);
 
     this.setCanonical(url);
-    this.setHtmlLang(isEn ? 'en' : 'fr');
-    this.setHreflang(config.path ?? '');
-  }
-
-  private setHreflang(path: string): void {
-    this.doc.querySelectorAll("link[rel='alternate'][hreflang]").forEach((el) => el.remove());
-    const variants: { lang: string; href: string }[] = [
-      { lang: 'fr', href: `${SITE_URL}${path}` },
-      { lang: 'en', href: `${SITE_URL}/en${path}` },
-      { lang: 'x-default', href: `${SITE_URL}${path}` }
-    ];
-    for (const v of variants) {
-      const link = this.doc.createElement('link');
-      link.setAttribute('rel', 'alternate');
-      link.setAttribute('hreflang', v.lang);
-      link.setAttribute('href', v.href);
-      this.doc.head.appendChild(link);
-    }
   }
 
   setJsonLd(data: object, id = 'seo-jsonld'): void {
@@ -99,9 +77,5 @@ export class SeoService {
       this.doc.head.appendChild(link);
     }
     link.setAttribute('href', url);
-  }
-
-  private setHtmlLang(lang: string): void {
-    this.doc.documentElement.setAttribute('lang', lang);
   }
 }

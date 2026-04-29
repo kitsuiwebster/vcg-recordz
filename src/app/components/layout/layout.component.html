@@ -10,22 +10,12 @@
         <a routerLink="/artists" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.artists">Artistes</a>
         <a routerLink="/team" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.team">Équipe</a>
         <a routerLink="/stage" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.stage">Scène</a>
+        <a routerLink="/gallery" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.gallery">Galerie</a>
         <a routerLink="/services" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.services">Services</a>
         <a routerLink="/contact" routerLinkActive="text-ink-900" [routerLinkActiveOptions]="{ exact: true }" class="eyebrow text-ink-500 hover:text-ink-900 transition-colors" i18n="@@nav.contact">Contact</a>
       </div>
 
       <div class="flex items-center gap-4">
-        <button
-          type="button"
-          (click)="switchLanguage()"
-          class="flex items-center gap-1 text-xs font-mono tracking-widest hover:text-ink-900 transition-colors"
-          aria-label="Switch language"
-        >
-          <span [class]="isFrench() ? 'text-ink-900' : 'text-ink-500'">FR</span>
-          <span class="text-ink-400">/</span>
-          <span [class]="isFrench() ? 'text-ink-500' : 'text-ink-900'">EN</span>
-        </button>
-
         <button
           type="button"
           (click)="toggleMenu()"
@@ -44,6 +34,7 @@
         <a routerLink="/artists" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.artists">Artistes</a>
         <a routerLink="/team" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.team">Équipe</a>
         <a routerLink="/stage" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.stage">Scène</a>
+        <a routerLink="/gallery" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.gallery">Galerie</a>
         <a routerLink="/services" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.services">Services</a>
         <a routerLink="/contact" (click)="isMenuOpen = false" class="text-2xl font-medium" i18n="@@nav.contact">Contact</a>
       </div>
@@ -71,6 +62,7 @@
           <li><a routerLink="/artists" class="hover:text-ink-900 transition-colors" i18n="@@nav.artists">Artistes</a></li>
           <li><a routerLink="/team" class="hover:text-ink-900 transition-colors" i18n="@@nav.team">Équipe</a></li>
           <li><a routerLink="/stage" class="hover:text-ink-900 transition-colors" i18n="@@nav.stage">Scène</a></li>
+          <li><a routerLink="/gallery" class="hover:text-ink-900 transition-colors" i18n="@@nav.gallery">Galerie</a></li>
           <li><a routerLink="/services" class="hover:text-ink-900 transition-colors" i18n="@@nav.services">Services</a></li>
         </ul>
       </div>

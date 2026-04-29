@@ -14,8 +14,8 @@ export class ArtistsComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.artists.title:Our Artists`,
-      description: $localize`:@@seo.artists.description:Meet the artists distributed by VCG Recordz · Kitsui & Køni, MADPOOF · and our collaborators Cl6ud6, Loupa, Gaxve, CXMET.`,
+      title: 'Nos artistes',
+      description: 'Découvrez les artistes distribués par VCG Recordz · Kitsui & Køni, MADPOOF · et nos collaborateurs Cl6ud6, Loupa, Gaxve, CXMET.',
       path: '/artists'
     });
   }

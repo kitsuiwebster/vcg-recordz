@@ -14,8 +14,8 @@ export class LicensingComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.licensing.title:Licensing`,
-      description: $localize`:@@seo.licensing.description:Licensing, sync, beats and clearance policies for the VCG Recordz catalogue.`,
+      title: 'Licensing',
+      description: 'Licensing, sync, beats et conditions de licence du catalogue VCG Recordz.',
       path: '/licensing'
     });
   }

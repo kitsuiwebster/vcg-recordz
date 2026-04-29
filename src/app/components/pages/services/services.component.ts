@@ -14,8 +14,8 @@ export class ServicesComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.update({
-      title: $localize`:@@seo.services.title:Services`,
-      description: $localize`:@@seo.services.description:VCG Recordz services · live booking, music distribution, beatmaking and studio sessions for mixing and recording.`,
+      title: 'Services',
+      description: 'Services VCG Recordz · booking live, distribution, beatmaking et sessions studio mixage et enregistrement.',
       path: '/services'
     });
   }
