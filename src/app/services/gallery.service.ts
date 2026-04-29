@@ -138,10 +138,10 @@ export class GalleryService {
   getAllPhotos(options: { shuffle?: boolean } = {}): GalleryPhoto[] {
     const all: GalleryPhoto[] = this.photos.map((p) => ({
       src: p.path,
-      eventSlug: this.slugFromId(p.id),
+      eventSlug: this.slugForEventTitle(p.event),
       eventTitle: p.event,
       eventYear: p.year,
-      index: this.indexFromId(p.id),
+      index: this.extractIndexFromPath(p.path),
       photographer: p.photographer,
     }));
     if (options.shuffle) this.shuffleInPlace(all);
@@ -214,13 +214,13 @@ export class GalleryService {
     }
   }
 
-  private slugFromId(id: string): string {
-    const match = id.match(/^(.+)-\d+$/);
-    return match ? match[1] : id;
+  private slugForEventTitle(title: string): string {
+    return this.eventsMeta.find((e) => e.title === title)?.slug ?? 'photo';
   }
 
-  private indexFromId(id: string): number {
-    const match = id.match(/-(\d+)$/);
+  private extractIndexFromPath(path: string): number {
+    const filename = path.split('/').pop() ?? '';
+    const match = filename.match(/(\d+)\.[a-zA-Z0-9]+$/);
     return match ? parseInt(match[1], 10) : 1;
   }
 }

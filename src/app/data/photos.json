@@ -1,7 +1,7 @@
 {
   "photos": [
     {
-      "id": "chatnoir-01",
+      "id": "000",
       "event": "Chat Noir",
       "year": 2025,
       "type": "live",
@@ -10,7 +10,7 @@
       "path": "/images/stage/events/chatnoir_01.jpg"
     },
     {
-      "id": "chambery-01",
+      "id": "001",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -19,7 +19,7 @@
       "path": "/images/stage/events/chambery_01.webp"
     },
     {
-      "id": "chambery-02",
+      "id": "002",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -28,7 +28,7 @@
       "path": "/images/stage/events/chambery_02.webp"
     },
     {
-      "id": "chambery-03",
+      "id": "003",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -37,7 +37,7 @@
       "path": "/images/stage/events/chambery_03.webp"
     },
     {
-      "id": "chambery-04",
+      "id": "004",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -46,7 +46,7 @@
       "path": "/images/stage/events/chambery_04.webp"
     },
     {
-      "id": "chambery-05",
+      "id": "005",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -55,7 +55,7 @@
       "path": "/images/stage/events/chambery_05.webp"
     },
     {
-      "id": "chambery-06",
+      "id": "006",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -64,7 +64,7 @@
       "path": "/images/stage/events/chambery_06.webp"
     },
     {
-      "id": "chambery-07",
+      "id": "007",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -73,7 +73,7 @@
       "path": "/images/stage/events/chambery_07.webp"
     },
     {
-      "id": "chambery-08",
+      "id": "008",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -82,7 +82,7 @@
       "path": "/images/stage/events/chambery_08.webp"
     },
     {
-      "id": "chambery-09",
+      "id": "009",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -91,7 +91,7 @@
       "path": "/images/stage/events/chambery_09.webp"
     },
     {
-      "id": "chambery-10",
+      "id": "010",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -100,7 +100,7 @@
       "path": "/images/stage/events/chambery_10.webp"
     },
     {
-      "id": "chambery-11",
+      "id": "011",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -109,7 +109,7 @@
       "path": "/images/stage/events/chambery_11.webp"
     },
     {
-      "id": "chambery-12",
+      "id": "012",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -118,7 +118,7 @@
       "path": "/images/stage/events/chambery_12.webp"
     },
     {
-      "id": "chambery-13",
+      "id": "013",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -127,7 +127,7 @@
       "path": "/images/stage/events/chambery_13.webp"
     },
     {
-      "id": "chambery-14",
+      "id": "014",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -136,7 +136,7 @@
       "path": "/images/stage/events/chambery_14.webp"
     },
     {
-      "id": "chambery-15",
+      "id": "015",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -145,7 +145,7 @@
       "path": "/images/stage/events/chambery_15.webp"
     },
     {
-      "id": "chambery-16",
+      "id": "016",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -154,7 +154,7 @@
       "path": "/images/stage/events/chambery_16.webp"
     },
     {
-      "id": "chambery-17",
+      "id": "017",
       "event": "Fête de la musique de Chambéry",
       "year": 2025,
       "type": "live",
@@ -163,7 +163,7 @@
       "path": "/images/stage/events/chambery_17.webp"
     },
     {
-      "id": "morges-01",
+      "id": "018",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -172,7 +172,7 @@
       "path": "/images/stage/events/morges_01.webp"
     },
     {
-      "id": "morges-02",
+      "id": "019",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -181,7 +181,7 @@
       "path": "/images/stage/events/morges_02.webp"
     },
     {
-      "id": "morges-03",
+      "id": "020",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -190,7 +190,7 @@
       "path": "/images/stage/events/morges_03.webp"
     },
     {
-      "id": "morges-04",
+      "id": "021",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -199,7 +199,7 @@
       "path": "/images/stage/events/morges_04.webp"
     },
     {
-      "id": "morges-05",
+      "id": "022",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -208,7 +208,7 @@
       "path": "/images/stage/events/morges_05.webp"
     },
     {
-      "id": "morges-06",
+      "id": "023",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -217,7 +217,7 @@
       "path": "/images/stage/events/morges_06.webp"
     },
     {
-      "id": "morges-07",
+      "id": "024",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -226,7 +226,7 @@
       "path": "/images/stage/events/morges_07.webp"
     },
     {
-      "id": "morges-08",
+      "id": "025",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -235,7 +235,7 @@
       "path": "/images/stage/events/morges_08.webp"
     },
     {
-      "id": "morges-09",
+      "id": "026",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -244,7 +244,7 @@
       "path": "/images/stage/events/morges_09.webp"
     },
     {
-      "id": "morges-10",
+      "id": "027",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -253,7 +253,7 @@
       "path": "/images/stage/events/morges_10.webp"
     },
     {
-      "id": "morges-11",
+      "id": "028",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -262,7 +262,7 @@
       "path": "/images/stage/events/morges_11.webp"
     },
     {
-      "id": "morges-12",
+      "id": "029",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -271,7 +271,7 @@
       "path": "/images/stage/events/morges_12.webp"
     },
     {
-      "id": "morges-13",
+      "id": "030",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -280,7 +280,7 @@
       "path": "/images/stage/events/morges_13.webp"
     },
     {
-      "id": "morges-14",
+      "id": "031",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -289,7 +289,7 @@
       "path": "/images/stage/events/morges_14.webp"
     },
     {
-      "id": "morges-15",
+      "id": "032",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -298,7 +298,7 @@
       "path": "/images/stage/events/morges_15.webp"
     },
     {
-      "id": "morges-16",
+      "id": "033",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -307,7 +307,7 @@
       "path": "/images/stage/events/morges_16.webp"
     },
     {
-      "id": "morges-17",
+      "id": "034",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -316,7 +316,7 @@
       "path": "/images/stage/events/morges_17.webp"
     },
     {
-      "id": "morges-18",
+      "id": "035",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -325,7 +325,7 @@
       "path": "/images/stage/events/morges_18.webp"
     },
     {
-      "id": "morges-19",
+      "id": "036",
       "event": "Fête de la musique de Morges",
       "year": 2025,
       "type": "live",
@@ -334,7 +334,7 @@
       "path": "/images/stage/events/morges_19.webp"
     },
     {
-      "id": "portaz-01",
+      "id": "037",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -343,7 +343,7 @@
       "path": "/images/stage/events/portaz_01.webp"
     },
     {
-      "id": "portaz-02",
+      "id": "038",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -352,7 +352,7 @@
       "path": "/images/stage/events/portaz_02.webp"
     },
     {
-      "id": "portaz-03",
+      "id": "039",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -361,7 +361,7 @@
       "path": "/images/stage/events/portaz_03.webp"
     },
     {
-      "id": "portaz-04",
+      "id": "040",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -370,7 +370,7 @@
       "path": "/images/stage/events/portaz_04.webp"
     },
     {
-      "id": "portaz-05",
+      "id": "041",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -379,7 +379,7 @@
       "path": "/images/stage/events/portaz_05.webp"
     },
     {
-      "id": "portaz-06",
+      "id": "042",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -388,7 +388,7 @@
       "path": "/images/stage/events/portaz_06.webp"
     },
     {
-      "id": "portaz-07",
+      "id": "043",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -397,7 +397,7 @@
       "path": "/images/stage/events/portaz_07.webp"
     },
     {
-      "id": "portaz-08",
+      "id": "044",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -406,7 +406,7 @@
       "path": "/images/stage/events/portaz_08.webp"
     },
     {
-      "id": "portaz-09",
+      "id": "045",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -415,7 +415,7 @@
       "path": "/images/stage/events/portaz_09.webp"
     },
     {
-      "id": "portaz-10",
+      "id": "046",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -424,7 +424,7 @@
       "path": "/images/stage/events/portaz_10.webp"
     },
     {
-      "id": "portaz-11",
+      "id": "047",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -433,7 +433,7 @@
       "path": "/images/stage/events/portaz_11.webp"
     },
     {
-      "id": "portaz-12",
+      "id": "048",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -442,7 +442,7 @@
       "path": "/images/stage/events/portaz_12.webp"
     },
     {
-      "id": "portaz-13",
+      "id": "049",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -451,7 +451,7 @@
       "path": "/images/stage/events/portaz_13.webp"
     },
     {
-      "id": "portaz-14",
+      "id": "050",
       "event": "Portaz Festival",
       "year": 2025,
       "type": "live",
@@ -460,7 +460,7 @@
       "path": "/images/stage/events/portaz_14.webp"
     },
     {
-      "id": "trevad-01",
+      "id": "051",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -469,7 +469,7 @@
       "path": "/images/stage/events/trevad_01.webp"
     },
     {
-      "id": "trevad-02",
+      "id": "052",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -478,7 +478,7 @@
       "path": "/images/stage/events/trevad_02.webp"
     },
     {
-      "id": "trevad-03",
+      "id": "053",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -487,7 +487,7 @@
       "path": "/images/stage/events/trevad_03.webp"
     },
     {
-      "id": "trevad-04",
+      "id": "054",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -496,7 +496,7 @@
       "path": "/images/stage/events/trevad_04.webp"
     },
     {
-      "id": "trevad-05",
+      "id": "055",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -505,7 +505,7 @@
       "path": "/images/stage/events/trevad_05.webp"
     },
     {
-      "id": "trevad-06",
+      "id": "056",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -514,7 +514,7 @@
       "path": "/images/stage/events/trevad_06.webp"
     },
     {
-      "id": "trevad-07",
+      "id": "057",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -523,7 +523,7 @@
       "path": "/images/stage/events/trevad_07.webp"
     },
     {
-      "id": "trevad-08",
+      "id": "058",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -532,7 +532,7 @@
       "path": "/images/stage/events/trevad_08.webp"
     },
     {
-      "id": "trevad-09",
+      "id": "059",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -541,7 +541,7 @@
       "path": "/images/stage/events/trevad_09.webp"
     },
     {
-      "id": "trevad-10",
+      "id": "060",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -550,7 +550,7 @@
       "path": "/images/stage/events/trevad_10.webp"
     },
     {
-      "id": "trevad-11",
+      "id": "061",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -559,7 +559,7 @@
       "path": "/images/stage/events/trevad_11.webp"
     },
     {
-      "id": "trevad-12",
+      "id": "062",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -568,7 +568,7 @@
       "path": "/images/stage/events/trevad_12.webp"
     },
     {
-      "id": "trevad-13",
+      "id": "063",
       "event": "Trevad Festival",
       "year": 2025,
       "type": "live",
@@ -577,7 +577,7 @@
       "path": "/images/stage/events/trevad_13.webp"
     },
     {
-      "id": "vcg-crew-01",
+      "id": "064",
       "event": "VCG Crew",
       "year": 2025,
       "type": "crew",
