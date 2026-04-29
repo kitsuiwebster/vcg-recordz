@@ -50,10 +50,7 @@
       <div class="lightbox-info">
         <p class="lightbox-title">{{ photo.eventTitle }} {{ photo.eventYear }}</p>
         <p class="lightbox-credits">
-          <span i18n="@@gallery.by">par</span>
-          <ng-container *ngFor="let h of photo.photographers; let last = last"
-            >&nbsp;&#64;{{ h }}<span *ngIf="!last"> · </span></ng-container
-          >
+          <span i18n="@@gallery.by">par</span>&nbsp;&#64;{{ photo.photographer }}
         </p>
       </div>
       <button

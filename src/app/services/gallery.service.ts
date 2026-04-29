@@ -10,7 +10,7 @@ export interface Photo {
   event: string;
   year: number;
   type: PhotoType;
-  photographer: string[];
+  photographer: string;
   orientation: PhotoOrientation;
   path: string;
 }
@@ -38,7 +38,7 @@ export interface GalleryPhoto {
   eventTitle: string;
   eventYear: number;
   index: number;
-  photographers: string[];
+  photographer: string;
 }
 
 const PHOTOS: Photo[] = photoData.photos as Photo[];
@@ -142,7 +142,7 @@ export class GalleryService {
       eventTitle: p.event,
       eventYear: p.year,
       index: this.indexFromId(p.id),
-      photographers: p.photographer,
+      photographer: p.photographer,
     }));
     if (options.shuffle) this.shuffleInPlace(all);
     return all;
@@ -150,10 +150,8 @@ export class GalleryService {
 
   buildDownloadFilename(photo: GalleryPhoto): string {
     const indexPadded = String(photo.index).padStart(2, '0');
-    const handles = photo.photographers
-      .map((h) => h.replace(/\./g, ''))
-      .join('-');
-    return `vcg-recordz_${photo.eventSlug}_${indexPadded}_${handles}.jpg`;
+    const handle = photo.photographer.replace(/\./g, '');
+    return `vcg-recordz_${photo.eventSlug}_${indexPadded}_${handle}.jpg`;
   }
 
   async downloadPhotoAsJpg(photo: GalleryPhoto): Promise<void> {
