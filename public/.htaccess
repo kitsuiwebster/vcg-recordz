@@ -12,10 +12,7 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# SPA fallback for /en/* routes
-RewriteRule ^en(/.*)?$ /en/index.html [L]
-
-# SPA fallback for everything else (FR routes)
+# SPA fallback for all routes
 RewriteRule . /index.html [L]
 
 # Compression
