@@ -1,0 +1,745 @@
+{
+  "photos": [
+    {
+      "id": "chatnoir-01",
+      "event": "Chat Noir",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "ader_alaa"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/chatnoir_01.jpg"
+    },
+    {
+      "id": "chambery-01",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/chambery_01.webp"
+    },
+    {
+      "id": "chambery-02",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/chambery_02.webp"
+    },
+    {
+      "id": "chambery-03",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/chambery_03.webp"
+    },
+    {
+      "id": "chambery-04",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/chambery_04.webp"
+    },
+    {
+      "id": "chambery-05",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/chambery_05.webp"
+    },
+    {
+      "id": "chambery-06",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/chambery_06.webp"
+    },
+    {
+      "id": "chambery-07",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/chambery_07.webp"
+    },
+    {
+      "id": "chambery-08",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/chambery_08.webp"
+    },
+    {
+      "id": "chambery-09",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/chambery_09.webp"
+    },
+    {
+      "id": "chambery-10",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/chambery_10.webp"
+    },
+    {
+      "id": "chambery-11",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/chambery_11.webp"
+    },
+    {
+      "id": "chambery-12",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/chambery_12.webp"
+    },
+    {
+      "id": "chambery-13",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/chambery_13.webp"
+    },
+    {
+      "id": "chambery-14",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/chambery_14.webp"
+    },
+    {
+      "id": "chambery-15",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/chambery_15.webp"
+    },
+    {
+      "id": "chambery-16",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/chambery_16.webp"
+    },
+    {
+      "id": "chambery-17",
+      "event": "Fête de la musique de Chambéry",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/chambery_17.webp"
+    },
+    {
+      "id": "morges-01",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_01.webp"
+    },
+    {
+      "id": "morges-02",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_02.webp"
+    },
+    {
+      "id": "morges-03",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_03.webp"
+    },
+    {
+      "id": "morges-04",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_04.webp"
+    },
+    {
+      "id": "morges-05",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_05.webp"
+    },
+    {
+      "id": "morges-06",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_06.webp"
+    },
+    {
+      "id": "morges-07",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_07.webp"
+    },
+    {
+      "id": "morges-08",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_08.webp"
+    },
+    {
+      "id": "morges-09",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_09.webp"
+    },
+    {
+      "id": "morges-10",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_10.webp"
+    },
+    {
+      "id": "morges-11",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_11.webp"
+    },
+    {
+      "id": "morges-12",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/morges_12.webp"
+    },
+    {
+      "id": "morges-13",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/morges_13.webp"
+    },
+    {
+      "id": "morges-14",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/morges_14.webp"
+    },
+    {
+      "id": "morges-15",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/morges_15.webp"
+    },
+    {
+      "id": "morges-16",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/morges_16.webp"
+    },
+    {
+      "id": "morges-17",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/morges_17.webp"
+    },
+    {
+      "id": "morges-18",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/morges_18.webp"
+    },
+    {
+      "id": "morges-19",
+      "event": "Fête de la musique de Morges",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/morges_19.webp"
+    },
+    {
+      "id": "portaz-01",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/portaz_01.webp"
+    },
+    {
+      "id": "portaz-02",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/portaz_02.webp"
+    },
+    {
+      "id": "portaz-03",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/portaz_03.webp"
+    },
+    {
+      "id": "portaz-04",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/portaz_04.webp"
+    },
+    {
+      "id": "portaz-05",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/portaz_05.webp"
+    },
+    {
+      "id": "portaz-06",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/portaz_06.webp"
+    },
+    {
+      "id": "portaz-07",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/portaz_07.webp"
+    },
+    {
+      "id": "portaz-08",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/portaz_08.webp"
+    },
+    {
+      "id": "portaz-09",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/portaz_09.webp"
+    },
+    {
+      "id": "portaz-10",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/portaz_10.webp"
+    },
+    {
+      "id": "portaz-11",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/portaz_11.webp"
+    },
+    {
+      "id": "portaz-12",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/portaz_12.webp"
+    },
+    {
+      "id": "portaz-13",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/portaz_13.webp"
+    },
+    {
+      "id": "portaz-14",
+      "event": "Portaz Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "e_theillard"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/portaz_14.webp"
+    },
+    {
+      "id": "trevad-01",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/trevad_01.webp"
+    },
+    {
+      "id": "trevad-02",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/trevad_02.webp"
+    },
+    {
+      "id": "trevad-03",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/events/trevad_03.webp"
+    },
+    {
+      "id": "trevad-04",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_04.webp"
+    },
+    {
+      "id": "trevad-05",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_05.webp"
+    },
+    {
+      "id": "trevad-06",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_06.webp"
+    },
+    {
+      "id": "trevad-07",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_07.webp"
+    },
+    {
+      "id": "trevad-08",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_08.webp"
+    },
+    {
+      "id": "trevad-09",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_09.webp"
+    },
+    {
+      "id": "trevad-10",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_10.webp"
+    },
+    {
+      "id": "trevad-11",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_11.webp"
+    },
+    {
+      "id": "trevad-12",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_12.webp"
+    },
+    {
+      "id": "trevad-13",
+      "event": "Trevad Festival",
+      "year": 2025,
+      "type": "live",
+      "photographer": [
+        "johann_marrec",
+        "tom._mvl",
+        "fanny_mbn"
+      ],
+      "orientation": "portrait",
+      "path": "/images/stage/events/trevad_13.webp"
+    },
+    {
+      "id": "vcg-crew-01",
+      "event": "VCG Crew",
+      "year": 2025,
+      "type": "crew",
+      "photographer": [
+        "dylan.yagami"
+      ],
+      "orientation": "landscape",
+      "path": "/images/stage/crew2.jpg"
+    }
+  ]
+}

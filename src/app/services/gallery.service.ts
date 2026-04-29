@@ -1,5 +1,19 @@
 import { Inject, Injectable, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import photoData from '../data/photos.json';
+
+export type PhotoType = 'live' | 'studio' | 'crew' | string;
+export type PhotoOrientation = 'portrait' | 'landscape';
+
+export interface Photo {
+  id: string;
+  event: string;
+  year: number;
+  type: PhotoType;
+  photographer: string[];
+  orientation: PhotoOrientation;
+  path: string;
+}
 
 export interface PhotoCredit {
   handle: string;
@@ -27,9 +41,13 @@ export interface GalleryPhoto {
   photographers: string[];
 }
 
+const PHOTOS: Photo[] = photoData.photos as Photo[];
+
 @Injectable({ providedIn: 'root' })
 export class GalleryService {
-  readonly events: EventEntry[] = [
+  readonly photos: Photo[] = PHOTOS;
+
+  private readonly eventsMeta: Omit<EventEntry, 'photos'>[] = [
     {
       slug: 'portaz',
       year: 2025,
@@ -37,7 +55,6 @@ export class GalleryService {
       title: 'Portaz Festival',
       location: 'Delley-Portalban · Suisse',
       lineup: 'Loupa · Kitsui · Køni · Biaco · Baptiste (DJ)',
-      photos: Array.from({ length: 14 }, (_, i) => `/images/stage/events/portaz_${String(i + 1).padStart(2, '0')}.webp`),
       credits: [
         { handle: 'e_theillard' },
         { handle: 'romeo_ballara', role: 'vidéo' },
@@ -50,7 +67,6 @@ export class GalleryService {
       title: 'Trevad Festival',
       location: "Ergué-Gabéric · Bretagne · Salle L'Athenaz",
       lineup: 'Loupa · Kitsui · Køni · Djoolias (DJ)',
-      photos: Array.from({ length: 13 }, (_, i) => `/images/stage/events/trevad_${String(i + 1).padStart(2, '0')}.webp`),
       credits: [
         { handle: 'johann_marrec' },
         { handle: 'tom._mvl' },
@@ -64,7 +80,6 @@ export class GalleryService {
       title: 'Fête de la musique de Chambéry',
       location: 'Chambéry · France',
       lineup: 'Loupa · Kitsui · Køni · Gryffon · Gary (DJ)',
-      photos: Array.from({ length: 17 }, (_, i) => `/images/stage/events/chambery_${String(i + 1).padStart(2, '0')}.webp`),
       credits: [
         { handle: 'dylan.yagami' },
         { handle: 'romeo_ballara', role: 'vidéo' },
@@ -77,14 +92,12 @@ export class GalleryService {
       title: 'Fête de la musique de Morges',
       location: 'Morges · Suisse',
       lineup: 'Loupa · Kitsui · Køni · Baptiste (DJ)',
-      photos: Array.from({ length: 19 }, (_, i) => `/images/stage/events/morges_${String(i + 1).padStart(2, '0')}.webp`),
       credits: [{ handle: 'dylan.yagami' }],
     },
     {
       slug: 'chatnoir',
       year: 2025,
       title: 'Chat Noir',
-      photos: ['/images/stage/events/chatnoir_01.jpg'],
       credits: [{ handle: 'ader_alaa' }],
       extra: true,
     },
@@ -92,7 +105,6 @@ export class GalleryService {
       slug: 'vcg-crew',
       year: 2025,
       title: 'VCG Crew',
-      photos: ['/images/stage/crew2.jpg'],
       credits: [{ handle: 'dylan.yagami' }],
       extra: true,
     },
@@ -100,27 +112,40 @@ export class GalleryService {
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
-  getAllPhotos(options: { shuffle?: boolean } = {}): GalleryPhoto[] {
-    const all: GalleryPhoto[] = [];
-    for (const event of this.events) {
-      const photographers = this.toPhotographers(event.credits);
-      for (const src of event.photos) {
-        all.push({
-          src,
-          eventSlug: event.slug,
-          eventTitle: event.title,
-          eventYear: event.year,
-          index: this.extractIndex(src),
-          photographers,
-        });
-      }
-    }
-    if (options.shuffle) this.shuffleInPlace(all);
-    return all;
+  get events(): EventEntry[] {
+    return this.eventsMeta.map((meta) => ({
+      ...meta,
+      photos: this.photos.filter((p) => p.event === meta.title).map((p) => p.path),
+    }));
   }
 
   getEventBySlug(slug: string): EventEntry | undefined {
     return this.events.find((e) => e.slug === slug);
+  }
+
+  getPhotoById(id: string): Photo | undefined {
+    return this.photos.find((p) => p.id === id);
+  }
+
+  getPhotosByType(type: PhotoType): Photo[] {
+    return this.photos.filter((p) => p.type === type);
+  }
+
+  getPhotosByEvent(eventTitle: string): Photo[] {
+    return this.photos.filter((p) => p.event === eventTitle);
+  }
+
+  getAllPhotos(options: { shuffle?: boolean } = {}): GalleryPhoto[] {
+    const all: GalleryPhoto[] = this.photos.map((p) => ({
+      src: p.path,
+      eventSlug: this.slugFromId(p.id),
+      eventTitle: p.event,
+      eventYear: p.year,
+      index: this.indexFromId(p.id),
+      photographers: p.photographer,
+    }));
+    if (options.shuffle) this.shuffleInPlace(all);
+    return all;
   }
 
   buildDownloadFilename(photo: GalleryPhoto): string {
@@ -170,7 +195,7 @@ export class GalleryService {
       try {
         return await createImageBitmap(blob);
       } catch {
-        // fall through to HTMLImageElement path
+        // fall through
       }
     }
     const url = URL.createObjectURL(blob);
@@ -191,15 +216,13 @@ export class GalleryService {
     }
   }
 
-  private toPhotographers(credits: PhotoCredit[]): string[] {
-    return credits
-      .filter((c) => c.role !== 'vidéo' && c.role !== 'video')
-      .map((c) => c.handle);
+  private slugFromId(id: string): string {
+    const match = id.match(/^(.+)-\d+$/);
+    return match ? match[1] : id;
   }
 
-  private extractIndex(src: string): number {
-    const filename = src.split('/').pop() ?? '';
-    const match = filename.match(/(\d+)\.[a-zA-Z0-9]+$/);
+  private indexFromId(id: string): number {
+    const match = id.match(/-(\d+)$/);
     return match ? parseInt(match[1], 10) : 1;
   }
 }
